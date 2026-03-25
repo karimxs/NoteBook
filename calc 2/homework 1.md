@@ -17,3 +17,15 @@ $$
 \sum_{k=1}^\infty \frac{\sin ^{2}k}{2^{k}}
 $$
 According to The Direct Comparison Test (First Comparison)
+$$
+0\leq \sin ^{2}k\leq 1
+$$
+$$
+\frac{\sin ^{2}k}{2^{k}}\leq\frac{1}{2^{k}}
+$$
+$$
+\sum_{k=1}^\infty \frac{1}{2^k}=\sum_{k=1}^\infty \left( \frac{1}{2} \right)^{k}
+$$
+$$
+
+$$
