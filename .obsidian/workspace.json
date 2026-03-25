@@ -22,22 +22,6 @@
             }
           }
         ]
-      },
-      {
-        "id": "5bc0ecc21fd967f7",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "fd9ae13b6826da78",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -196,11 +180,16 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6b22d7f1f76c289e",
+  "active": "742d27649d7aff89",
   "lastOpenFiles": [
+    "Untitled",
+    "mals",
+    "python",
+    "calc 2",
     "Welcome.md"
   ]
 }
