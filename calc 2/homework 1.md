@@ -66,3 +66,19 @@ According to The Direct Comparison Test (First Comparison)
 $$
 1\leq2+\sin k\leq 3
 $$
+$$
+ \frac{2+\sin k}{k^{2}+10} \leq \frac{3}{k^{2}+10}\leq \frac{3}{k^{2}}
+$$
+$$
+\sum_{k=1}^\infty \frac{3}{k^2}=
+3\cdot\sum_{k=1}^\infty \frac{1}{k^2}
+$$
+Therefore the series converges.
+The bigger series $\sum_{k=1}^\infty \frac{3}{k^2}$ converges so the smaller series $\sum_{k=1}^{\infty} \frac{2+\sin k}{k^{2}+10}$ also converges.
+
+---
+## e.
+![[Pasted image 20260325221216.png]]
+$$
+\sum_{k=1}^\infty \frac{\ln(k)}{k}
+$$
