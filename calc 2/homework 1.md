@@ -26,6 +26,3 @@ $$
 $$
 \sum_{k=1}^\infty \frac{1}{2^k}=\sum_{k=1}^\infty \left( \frac{1}{2} \right)^{k}
 $$
-$$
-
-$$
