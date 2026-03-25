@@ -26,3 +26,25 @@ $$
 $$
 \sum_{k=1}^\infty \frac{1}{2^k}=\sum_{k=1}^\infty \left( \frac{1}{2} \right)^{k}
 $$
+$$
+\sum_{k=1}^\infty 0.5^{k} \Rightarrow x<1
+$$
+Therefore the series converges.
+The bigger series $\sum_{k=1}^\infty \left( \frac{1}{2} \right)^{k}$ converges so the smaller series $\sum_{k=1}^\infty \frac{\sin ^{2}k}{2^{k}}$ also converges.
+
+---
+## c.
+![[Pasted image 20260325215011.png]]
+$$
+\sum _{n=1}^{\infty } \frac{n(n+1)!}{2^{n}}
+$$
+According to The D'Alembert Test (Ratio Test)
+$$
+\lim_{ n \to \infty } \left| \frac{a_{n+1}}{a_{n}} \right| 
+$$
+$$
+\lim_{ n \to \infty } \left| \frac{(n+1)(n+2)\cancel!}{2^{\cancel n+1}}\cdot\frac{\cancel{2^{n}}}{n\cancel{(n+1)!}} \right|  
+$$
+$$
+
+$$
