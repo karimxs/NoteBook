@@ -46,5 +46,23 @@ $$
 \lim_{ n \to \infty } \left| \frac{(n+1)(n+2)\cancel!}{2^{\cancel n+1}}\cdot\frac{\cancel{2^{n}}}{n\cancel{(n+1)!}} \right|  
 $$
 $$
+\lim_{ n \to \infty } \left| \frac{(n+1)(n+2)}{2}\cdot\frac{1}{n} \right|  
+$$
+$$
+\lim_{ n \to \infty } \left| \frac{n^2+3n+2}{2n} \right|  
+$$$$
+\lim_{ n \to \infty } \left| \frac{n}{2}+\frac{3}{2}+\frac{2}{2n} \right|  
+\Rightarrow \infty
+$$
+Therefore the series diverges.
 
+---
+## d.
+![[Pasted image 20260325220040.png]]
+$$
+\sum_{k=1}^{\infty} \frac{2+\sin k}{k^{2}+10}
+$$
+According to The Direct Comparison Test (First Comparison)
+$$
+1\leq2+\sin k\leq 3
 $$
