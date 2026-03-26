@@ -181,11 +181,10 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false,
-      "obsidian-git:Open Git source control": false
+      "bases:Create new base": false
     }
   },
-  "active": "6b22d7f1f76c289e",
+  "active": "742d27649d7aff89",
   "lastOpenFiles": [
     "Pasted image 20260325221236.png",
     "Pasted image 20260325221216.png",
