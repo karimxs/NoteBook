@@ -98,3 +98,43 @@ The smaller series $\sum _{k=1} ^{\infty} \frac{1}{k}$ diverges so the bigger se
 ---
 # 2.
 ![[Pasted image 20260328223010.png]]
+# false:
+
+The statement is **False**.
+
+You might be tempted to say it's true because it looks very similar to the Limit Comparison Test. However, there is a crucial detail missing: **the problem does not state that $a_n$ and $b_n$ are positive series.** Because they can be any real numbers, we can use an alternating series to create a counterexample that breaks the rule.
+
+## The Counterexample
+
+Let's define our two sequences:
+
+- $$a_n = \frac{1}{n}$$
+    
+- $$b_n = \frac{(-1)^n}{\sqrt{n}}$$
+    
+
+Now, let's check if they satisfy all the conditions of the problem:
+
+**1. Does $\sum_{n=1}^\infty b_n$ converge?**
+
+Yes. The series $\sum_{n=1}^\infty \frac{(-1)^n}{\sqrt{n}}$ is an alternating series. Since $\frac{1}{\sqrt{n}}$ is positive, decreasing, and its limit as $n \to \infty$ is $0$, the series converges by the **Alternating Series Test (Leibniz Test)**.
+
+**2. Is $\lim_{n \to \infty} \frac{a_n}{b_n} = 0$?**
+
+Let's calculate the limit of the ratio:
+
+$$\lim_{n \to \infty} \frac{a_n}{b_n} = \lim_{n \to \infty} \frac{\frac{1}{n}}{\frac{(-1)^n}{\sqrt{n}}} = \lim_{n \to \infty} \frac{\sqrt{n}}{n \cdot (-1)^n} = \lim_{n \to \infty} \frac{(-1)^n}{\sqrt{n}} = 0$$
+
+The condition is satisfied.
+
+**3. Does $\sum_{n=1}^\infty a_n$ converge?**
+
+No. The series $\sum_{n=1}^\infty \frac{1}{n}$ is the Harmonic Series, which we know **diverges**.
+
+## Summary
+
+We found a case where $b_n$ converges, the limit of their ratio is $0$, but $a_n$ diverges. Therefore, the general statement is false.
+
+_(Note: If the problem had explicitly stated "Let $a_n, b_n > 0$", then the statement would be **True** based on the Limit Comparison Test)._
+
+Would you like to go over why the Limit Comparison Test fails when negative numbers are involved, or should we look at the next exercise?
