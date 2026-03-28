@@ -100,26 +100,20 @@ The smaller series $\sum _{k=1} ^{\infty} \frac{1}{k}$ diverges so the bigger se
 ![[Pasted image 20260328223010.png]]
 # false:
 
-The statement is **False**.
-
-You might be tempted to say it's true because it looks very similar to the Limit Comparison Test. However, there is a crucial detail missing: **the problem does not state that $a_n$ and $b_n$ are positive series.** Because they can be any real numbers, we can use an alternating series to create a counterexample that breaks the rule.
-
-## The Counterexample
-
 Let's define our two sequences:
 
 - $$a_n = \frac{1}{n}$$
-    
+
 - $$b_n = \frac{(-1)^n}{\sqrt{n}}$$
-    
+
 
 Now, let's check if they satisfy all the conditions of the problem:
 
-**1. Does $\sum_{n=1}^\infty b_n$ converge?**
+**1. $\sum_{n=1}^\infty b_n$ converge
 
-Yes. The series $\sum_{n=1}^\infty \frac{(-1)^n}{\sqrt{n}}$ is an alternating series. Since $\frac{1}{\sqrt{n}}$ is positive, decreasing, and its limit as $n \to \infty$ is $0$, the series converges by the **Alternating Series Test (Leibniz Test)**.
+The series $\sum_{n=1}^\infty \frac{(-1)^n}{\sqrt{n}}$ is an alternating series. Since $\frac{1}{\sqrt{n}}$ is positive, decreasing, and its limit as $n \to \infty$ is $0$, the series converges.
 
-**2. Is $\lim_{n \to \infty} \frac{a_n}{b_n} = 0$?**
+**2.$\lim_{n \to \infty} \frac{a_n}{b_n} = 0$**
 
 Let's calculate the limit of the ratio:
 
