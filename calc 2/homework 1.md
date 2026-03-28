@@ -92,5 +92,9 @@ According to The Direct Comparison Test (First Comparison)
 $$
 \sum _{k=1} ^{\infty} \frac{1}{k}
 $$
-, which we know **diverges**.
-The bigger series $\sum_{k=1}^\infty \frac{\ln(k)}{k}$ converges so the smaller series $\sum_{k=1}^{\infty} \frac{2+\sin k}{k^{2}+10}$ also converges.
+, which we know diverges.
+The smaller series $\sum _{k=1} ^{\infty} \frac{1}{k}$ diverges so the bigger series $\sum_{k=1}^\infty \frac{\ln(k)}{k}$ also diverfes.
+
+---
+# 2.
+![[Pasted image 20260328223010.png]]
