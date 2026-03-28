@@ -131,10 +131,3 @@ The condition is satisfied.
 
 No. The series $\sum_{n=1}^\infty \frac{1}{n}$ is the Harmonic Series, which we know **diverges**.
 
-## Summary
-
-We found a case where $b_n$ converges, the limit of their ratio is $0$, but $a_n$ diverges. Therefore, the general statement is false.
-
-_(Note: If the problem had explicitly stated "Let $a_n, b_n > 0$", then the statement would be **True** based on the Limit Comparison Test)._
-
-Would you like to go over why the Limit Comparison Test fails when negative numbers are involved, or should we look at the next exercise?
