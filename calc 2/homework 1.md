@@ -82,3 +82,15 @@ The bigger series $\sum_{k=1}^\infty \frac{3}{k^2}$ converges so the smaller ser
 $$
 \sum_{k=1}^\infty \frac{\ln(k)}{k}
 $$
+$$
+\ln(1)=0
+$$
+$$
+\frac{\ln(k)}{k}\geq \frac{1}{k}
+$$
+According to The Direct Comparison Test (First Comparison)
+$$
+\sum _{k=1} ^{\infty} \frac{1}{k}
+$$
+, which we know **diverges**.
+The bigger series $\sum_{k=1}^\infty \frac{\ln(k)}{k}$ converges so the smaller series $\sum_{k=1}^{\infty} \frac{2+\sin k}{k^{2}+10}$ also converges.
