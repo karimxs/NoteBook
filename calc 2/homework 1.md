@@ -98,30 +98,40 @@ The smaller series $\sum _{k=1} ^{\infty} \frac{1}{k}$ diverges so the bigger se
 ---
 # 2.
 ![[Pasted image 20260328223010.png]]
-# false:
+**False:**
 
-Let's define our two sequences:
+Let's define our two sequences by their odd and even terms (where $k=1,2,3,\dots$):
 
-- $$a_n = \frac{1}{n}$$
+- $a_{2k-1} = \frac{1}{k}$ and $a_{2k} = \frac{1}{k}$ (This creates the sequence $1, 1, \frac{1}{2}, \frac{1}{2}, \frac{1}{3}, \frac{1}{3}, \dots$)
 
-- $$b_n = \frac{(-1)^n}{\sqrt{n}}$$
+- $b_{2k-1} = \frac{1}{\sqrt{k}}$ and $b_{2k} = -\frac{1}{\sqrt{k}}$ (This creates the sequence $1, -1, \frac{1}{\sqrt{2}}, -\frac{1}{\sqrt{2}}, \frac{1}{\sqrt{3}}, -\frac{1}{\sqrt{3}}, \dots$)
 
+**1.$\sum_{n=1}^{\infty} b_n$ converge**
 
-Now, let's check if they satisfy all the conditions of the problem:
+The series groups into pairs that exactly cancel each other out:
 
-**1. $\sum_{n=1}^\infty b_n$ converge
+$$(1-1) + \left(\frac{1}{\sqrt{2}} - \frac{1}{\sqrt{2}}\right) + \dots = 0 + 0 + \dots$$
 
-The series $\sum_{n=1}^\infty \frac{(-1)^n}{\sqrt{n}}$ is an alternating series. Since $\frac{1}{\sqrt{n}}$ is positive, decreasing, and its limit as $n \to \infty$ is $0$, the series converges.
+Because the running total (partial sums) settles exactly at $0$ and the individual terms shrink to $0$ as $k \to \infty$, the series converges.
 
-**2.$\lim_{n \to \infty} \frac{a_n}{b_n} = 0$**
+**2. Is $\lim_{n \to \infty} \frac{a_n}{b_n} = 0$?**
 
-Let's calculate the limit of the ratio:
+Let's calculate the limit of the ratio by checking the odd and even pairs:
 
-$$\lim_{n \to \infty} \frac{a_n}{b_n} = \lim_{n \to \infty} \frac{\frac{1}{n}}{\frac{(-1)^n}{\sqrt{n}}} = \lim_{n \to \infty} \frac{\sqrt{n}}{n \cdot (-1)^n} = \lim_{n \to \infty} \frac{(-1)^n}{\sqrt{n}} = 0$$
+For odd terms:
 
-The condition is satisfied.
+$$\lim_{k \to \infty} \frac{a_{2k-1}}{b_{2k-1}} = \lim_{k \to \infty} \frac{\frac{1}{k}}{\frac{1}{\sqrt{k}}} = \lim_{k \to \infty} \frac{1}{\sqrt{k}} = 0$$
 
-**3. Does $\sum_{n=1}^\infty a_n$ converge?**
+For even terms:
 
-No. The series $\sum_{n=1}^\infty \frac{1}{n}$ is the Harmonic Series, which we know **diverges**.
+$$\lim_{k \to \infty} \frac{a_{2k}}{b_{2k}} = \lim_{k \to \infty} \frac{\frac{1}{k}}{-\frac{1}{\sqrt{k}}} = \lim_{k \to \infty} -\frac{1}{\sqrt{k}} = 0$$
 
+Since both the positive and negative ratios go to $0$, the overall limit is $0$. The condition is satisfied.
+
+**3. Does $\sum_{n=1}^{\infty} a_n$ converge?**
+
+No. If we group the series into pairs to add them up, we get:
+
+$$(1+1) + \left(\frac{1}{2} + \frac{1}{2}\right) + \left(\frac{1}{3} + \frac{1}{3}\right) + \dots = 2 + 1 + \frac{2}{3} + \frac{2}{4} + \dots = 2 \cdot \sum_{k=1}^{\infty} \frac{1}{k}$$
+
+This is simply $2$ times the Harmonic Series, which we know diverges.
