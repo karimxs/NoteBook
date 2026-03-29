@@ -50,14 +50,16 @@ $$
 $$
 $$
 \lim_{ n \to \infty } \left| \frac{n^2+3n+2}{2n} \right|  
-$$$$
-\lim_{ n \to \infty } \left| \frac{n}{2}+\frac{3}{2}+\frac{2}{2n} \right|  
-\Rightarrow \infty
+$$
+$$
+
 $$
 Therefore the series diverges.
 
+
 ---
 ## d.
+
 ![[Pasted image 20260325220040.png]]
 $$
 \sum_{k=1}^{\infty} \frac{2+\sin k}{k^{2}+10}
@@ -113,7 +115,7 @@ $$(1-1) + \left(\frac{1}{\sqrt{2}} - \frac{1}{\sqrt{2}}\right) + \dots = 0 + 0 +
 
 Because the running total (partial sums) settles exactly at $0$ and the individual terms shrink to $0$ as $k \to \infty$, the series converges.
 
-**2. Is $\lim_{n \to \infty} \frac{a_n}{b_n} = 0$?**
+**2. $\lim_{n \to \infty} \frac{a_n}{b_n} = 0$**
 
 Let's calculate the limit of the ratio by checking the odd and even pairs:
 
@@ -127,7 +129,7 @@ $$\lim_{k \to \infty} \frac{a_{2k}}{b_{2k}} = \lim_{k \to \infty} \frac{\frac{1}
 
 Since both the positive and negative ratios go to $0$, the overall limit is $0$. The condition is satisfied.
 
-**3. Does $\sum_{n=1}^{\infty} a_n$ converge?**
+**3.$\sum_{n=1}^{\infty} a_n$ converge**
 
 No. If we group the series into pairs to add them up, we get:
 
