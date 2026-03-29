@@ -109,7 +109,6 @@ Let's define our two sequences by their odd and even terms (where $k=1,2,3,\dots
 **1.$\sum_{n=1}^{\infty} b_n$ converge**
 
 The series groups into pairs that exactly cancel each other out:
-
 $$(1-1) + \left(\frac{1}{\sqrt{2}} - \frac{1}{\sqrt{2}}\right) + \dots = 0 + 0 + \dots$$
 
 Because the running total (partial sums) settles exactly at $0$ and the individual terms shrink to $0$ as $k \to \infty$, the series converges.
