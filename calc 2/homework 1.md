@@ -52,7 +52,7 @@ $$
 \lim_{ n \to \infty } \left| \frac{n^2+3n+2}{2n} \right|  
 $$
 $$
-
+\lim_{ n \to \infty } \left| \frac{n}{2}+\frac{3}{2}+\frac{2}{2n} \right|\Rightarrow \infty
 $$
 Therefore the series diverges.
 
