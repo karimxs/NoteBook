@@ -148,3 +148,57 @@ $$
 # 5.
 ![[Pasted image 20260330180433.png]]
 ![[Pasted image 20260330180701.png]]
+
+$$\vec{F}_{i} = k \frac{q_i \cdot q_t}{|\vec{r}_{it}|^3} \vec{r}_{it}$$
+
+ Force from Charge 1 ($q_1 = q$)
+
+- **Position:** $\vec{r}_1 = (3, 4, 1)$
+- **Displacement Vector:** $\vec{r}_{1t} = (0-3, 0-4, 1-1) = (-3, -4, 0)$
+- **Distance:** $|\vec{r}_{1t}| = \sqrt{(-3)^2 + (-4)^2 + 0^2} = \sqrt{9 + 16} = 5$
+- **Force Vector ($\vec{F}_1$):**
+$$\vec{F}_1 = k \frac{(q)(-4q)}{5^3} (-3, -4, 0)$$
+$$\vec{F}_1 = k \frac{-4q^2}{125} (-3, -4, 0)$$
+$$\vec{F}_1 = k q^2 \left( \frac{12}{125}, \frac{16}{125}, 0 \right) = k q^2 (0.096, 0.128, 0)$$
+
+Force from Charge 2 ($q_2 = 2q$)
+
+- **Position:** $\vec{r}_2 = (4, 3, -11)$
+- **Displacement Vector:** $\vec{r}_{2t} = (0-4, 0-3, 1-(-11)) = (-4, -3, 12)$
+- **Distance:** $|\vec{r}_{2t}| = \sqrt{(-4)^2 + (-3)^2 + 12^2} = \sqrt{16 + 9 + 144} = \sqrt{169} = 13$
+- **Force Vector ($\vec{F}_2$):**
+- $$\vec{F}_2 = k \frac{(2q)(-4q)}{13^3} (-4, -3, 12)$$
+
+$$\vec{F}_2 = k \frac{-8q^2}{2197} (-4, -3, 12)$$
+$$\vec{F}_2 = k q^2 \left( \frac{32}{2197}, \frac{24}{2197}, \frac{-96}{2197} \right) \approx k q^2 (0.0146, 0.0109, -0.0437)$$
+
+Force from Charge 3 ($q_3 = 3q$)
+
+- **Position:** $\vec{r}_3 = (0, 0, 5)$
+- **Displacement Vector:** $\vec{r}_{3t} = (0-0, 0-0, 1-5) = (0, 0, -4)$
+- **Distance:** $|\vec{r}_{3t}| = \sqrt{0^2 + 0^2 + (-4)^2} = \sqrt{16} = 4$
+- **Force Vector ($\vec{F}_3$):**
+$$\vec{F}_3 = k \frac{(3q)(-4q)}{4^3} (0, 0, -4)$$
+
+$$\vec{F}_3 = k \frac{-12q^2}{64} (0, 0, -4)$$
+
+$$\vec{F}_3 = k q^2 \left( 0, 0, \frac{48}{64} \right) = k q^2 \left( 0, 0, \frac{3}{4} \right) = k q^2 (0, 0, 0.75)$$
+
+
+Total Force ($\vec{F}_{total}$)
+
+$$\vec{F}_{total} = \vec{F}_1 + \vec{F}_2 + \vec{F}_3$$
+
+$$F_x = k q^2 \left( \frac{12}{125} + \frac{32}{2197} \right)$$
+
+$$F_y = k q^2 \left( \frac{16}{125} + \frac{24}{2197} \right)$$
+
+$$F_z = k q^2 \left( 0 - \frac{96}{2197} + \frac{3}{4} \right)$$
+
+- **X-component:** $0.096 + 0.0146 + 0 \approx \mathbf{0.1106 \, k q^2}$
+- **Y-component:** $0.128 + 0.0109 + 0 \approx \mathbf{0.1389 \, k q^2}$
+- **Z-component:** $0 - 0.0437 + 0.75 \approx \mathbf{0.7063 \, k q^2}$
+
+The total force vector exerted on the $-4q$ charge is approximately:
+
+$$\vec{F}_{total} \approx k q^2 (0.1106 \hat{i} + 0.1389 \hat{j} + 0.7063 \hat{k})$$
