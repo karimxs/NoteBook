@@ -60,5 +60,8 @@ $$
 =\frac{2\alpha(R^2-x^2)^{1.5}}{3}
 $$
 $$
-\int^R_{-R} \frac{2\alpha(R^2-x^2)^{1.5}}{3} dx=
+\int^R_{-R} \frac{2\alpha(R^2-x^2)^{1.5}}{3} dx=\frac{4\alpha}{3}\int^R_{0} (R^2-x^2)^{1.5} dx
+$$
+$$
+=\frac{4\alpha}{3} 
 $$
