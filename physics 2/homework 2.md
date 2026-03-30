@@ -45,5 +45,20 @@ $$
 Q=\int \int \sigma dA
 $$
 $$
-=
+=\int \int \alpha y^{2} \space dx \space dy
+$$
+$$
+R^2=x^2+y^2
+$$
+$$
+\int^R_{-R} \int_{-\sqrt{ R^{2}-x^2 }}^\sqrt{ R^{2}-x^{2} } \alpha y^2 \space dy \space dx
+$$
+$$
+\int_{-\sqrt{ R^{2}-x^2 }}^\sqrt{ R^{2}-x^{2} } \alpha y^2 \space dy=\frac{\alpha y^{3}}{3}=\frac{\alpha(R^2-x^2)^{1.5}}{3}+\frac{\alpha(R^2-x^2)^{1.5}}{3}
+$$
+$$
+=\frac{2\alpha(R^2-x^2)^{1.5}}{3}
+$$
+$$
+
 $$
