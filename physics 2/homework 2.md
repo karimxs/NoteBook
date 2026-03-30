@@ -114,3 +114,16 @@ $$
 # 4.
 ![[Pasted image 20260330165110.png]]
 ## a.
+$$
+U_{total}=U_{1,2}+U_{2,3}+U_{3,1}
+$$
+$$
+l=r_{1,2}=r_{2,3}=r_{3,1}
+$$
+$$
+U_{total}=k\left( \frac{q_{1}q_{2}}{l}+\frac{q_{2}q_{3}}{l}+\frac{q_{3}q_{1}}{l}
+ \right)
+$$
+$$
+U_{total}=k\left( ) \right) 
+$$
