@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "calc 2/homework 1.md",
-                "mode": "preview",
+                "file": "physics 2/homework 2.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "homework 1"
+              "title": "homework 2"
             }
           }
         ]
@@ -186,6 +186,10 @@
   },
   "active": "6b22d7f1f76c289e",
   "lastOpenFiles": [
+    "Pasted image 20260330141229.png",
+    "calc 2/homework 1.md",
+    "physics 2/homework 2.md",
+    "physics 2",
     "Pasted image 20260328223010.png",
     "Untitled/Untitled.md",
     "Untitled",
@@ -197,7 +201,6 @@
     "Pasted image 20260325211950.png",
     "Pasted image 20260325205754.png",
     "Welcome.md",
-    "calc 2/homework 1.md",
     "madr",
     "mals",
     "python",
