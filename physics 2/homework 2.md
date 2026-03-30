@@ -114,16 +114,33 @@ $$
 # 4.
 ![[Pasted image 20260330165110.png]]
 ## a.
+![[Pasted image 20260330175657.png]]
 $$
 U_{total}=U_{1,2}+U_{2,3}+U_{3,1}
 $$
 $$
-l=r_{1,2}=r_{2,3}=r_{3,1}
+l=r_{1,2}=r_{2,3}=r_{3,1}=1
 $$
 $$
 U_{total}=k\left( \frac{q_{1}q_{2}}{l}+\frac{q_{2}q_{3}}{l}+\frac{q_{3}q_{1}}{l}
  \right)
 $$
 $$
-U_{total}=k\left( ) \right) 
+U_{total}=k\left(-12 \times 10^{-12} \right) =-0.108 \space \text{Joules}
+$$
+---
+
+## b.
+![[Pasted image 20260330175723.png]]
+$$
+\Delta U=q_{4} \cdot V_{center}
+$$
+$$
+V_{center}=\frac{k}{r}(q_{1}+q_{2}+q_{3})=45\sqrt{ 3 }\times 10^{3}
+$$
+$$
+\Delta U=(5\times 10^{-6})\cdot(45\sqrt{ 3 }\times 10^{3})=225\sqrt{ 3 }\times 10^{-3} 
+$$
+$$
+\Delta U \prox
 $$
