@@ -63,5 +63,14 @@ $$
 \int^R_{-R} \frac{2\alpha(R^2-x^2)^{1.5}}{3} dx=\frac{4\alpha}{3}\int^R_{0} (R^2-x^2)^{1.5} dx
 $$
 $$
-=\frac{4\alpha}{3} 
+=\frac{4\alpha}{3} \int^{\frac{\pi}{2}}_{0}(R^2-R^2sin^2\theta)^{1.5} \cdot R\cos \theta d\theta
+$$
+$$
+=\frac{4\alpha}{3} \int^{\frac{\pi}{2}}_{0}(R^2\cos^2\theta)^{1.5} \cdot R\cos \theta d\theta=\frac{4\alpha R^4}{3}\int^{\frac{\pi}{2}}_{0}\cos ^{4} \theta d\theta
+$$
+$$
+=\frac{4\alpha R^{4}}{3}\cdot \frac{3\pi}{16}
+$$
+$$
+Q=\alpha
 $$
