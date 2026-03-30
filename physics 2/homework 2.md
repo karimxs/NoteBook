@@ -142,5 +142,9 @@ $$
 \Delta U=(5\times 10^{-6})\cdot(45\sqrt{ 3 }\times 10^{3})=225\sqrt{ 3 }\times 10^{-3} 
 $$
 $$
-\Delta U \prox
+\Delta U \approx 0.3897 \space \text{Joules}
 $$
+---
+# 5.
+![[Pasted image 20260330180433.png]]
+![[Pasted image 20260330180701.png]]
