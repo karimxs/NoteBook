@@ -72,5 +72,45 @@ $$
 =\frac{4\alpha R^{4}}{3}\cdot \frac{3\pi}{16}
 $$
 $$
-Q=\alpha
+Q=\frac{\alpha \pi R^{4}}{4}
 $$
+---
+## b.
+$R$ is simply $r$ going from $0$ to $R$, and $\theta$ going from $0$ to $2\pi$.
+$$
+\begin{cases}
+\sigma=\alpha y^2=\alpha(r\sin \theta)^{2}  \\
+dxdy=r dr d\theta
+\end{cases}
+$$
+$$
+Q = \int_{0}^{2\pi} \int_{0}^{R} (\alpha r^2 \sin^2\theta) \cdot r \,dr \,d\theta
+$$
+$$
+Q = \int_{0}^{2\pi} \int_{0}^{R} \alpha r^3 \sin^2\theta \,dr \,d\theta
+$$
+$$
+\int_{0}^{R} \alpha r^3 \sin^2\theta \,dr = \alpha \sin^2\theta \left[ \frac{r^4}{4} \right]_{0}^{R} = \frac{\alpha R^4}{4} \sin^2\theta
+$$
+$$
+Q = \int_{0}^{2\pi} \frac{\alpha R^4}{4} \sin^2\theta \,d\theta
+$$
+To integrate $\sin^2\theta$, we use the half-angle identity: $\sin^2\theta = \frac{1 - \cos(2\theta)}{2}$.
+$$
+Q = \frac{\alpha R^4}{4} \int_{0}^{2\pi} \frac{1 - \cos(2\theta)}{2} \,d\theta
+$$
+
+$$
+Q = \frac{\alpha R^4}{8} \left[ \theta - \frac{\sin(2\theta)}{2} \right]_{0}^{2\pi}
+$$
+$$
+Q = \frac{\alpha R^4}{8} \left( (2\pi - 0) - (0 - 0) \right)
+$$
+
+$$
+Q = \frac{\alpha \pi R^4}{4}
+$$
+---
+# 4.
+![[Pasted image 20260330165110.png]]
+## a.
