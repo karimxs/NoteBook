@@ -99,22 +99,5 @@
 
 להלן הקוד המבצע את המשימות הנדרשות:
 
-Python
-
-```
-# 1. יצירת רשימה של 5 מספרים
-numbers = [10, 15, 8, 22, 12]
-
-# 2. חישוב הממוצע
-average = sum(numbers) / len(numbers)
-
-# 3. יצירת מחרוזת המדפיסה את הממוצע באמצעות f-string
-average_message = f"The average of the numbers is: {average}"
-print(average_message)
-
-# 4. יצירת משתנה בוליאני שבודק אם הממוצע גדול מ-10
-is_greater_than_10 = average > 10
-print(f"Is the average greater than 10? {is_greater_than_10}")
-```
-
+![[code.png]]
 ---
