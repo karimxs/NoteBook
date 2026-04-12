@@ -28,5 +28,8 @@ $$
 \int \sin \theta \cos \theta \, d\theta = \left[ \frac{\sin^2 \theta}{2} \right]_{0}^{\pi/2}=\frac{1}{2}
 $$
 $$
-E_{z}=-k\sigma \int_{0}^{2\pi}\int_{0}^{\pi/2}\sin\theta\cos \theta d\theta d\phi
+E_{z}=-k\sigma 2\pi \frac{1}{2}=-k\sigma \pi
 $$
+---
+# 2.
+![[Pasted image 20260412133201.png]]
