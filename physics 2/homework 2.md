@@ -4,5 +4,8 @@ $$
 dq=\sigma dA
 $$
 $$
-dEarro
+d\vec{E}=k\cdot \frac{\sigma dA}{R^{2}}
+$$
+$$
+
 $$
