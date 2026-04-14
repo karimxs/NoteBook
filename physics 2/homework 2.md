@@ -41,18 +41,23 @@ $$
 \theta=0-\frac{\pi}{5}
 \end{cases}
 $$
+
 $$
 \Downarrow
 $$
+
 $$
 \vec{R}=-R\cos \theta \hat{x}+R\sin \theta \hat{y}+z\hat{z}
 $$
+
 $$
 \left| \vec{R} \right|=\sqrt{ R^{2}+z^{2} } 
 $$
+
 $$
 \hat{R}=\frac{\vec{R}}{\left| \vec{R} \right| }
 $$
+
 $$
 \begin{cases}
 dq=\lambda dl \\
@@ -61,17 +66,43 @@ dl=Rd\theta \\
 dq=\lambda Rd\theta
 \end{cases}
 $$
+
 $$
 d\vec{E}=k \frac{dq}{\left| \vec{R} \right| }\hat{R}
 $$
+
 $$
 d\vec{E}=k\lambda \frac{R}{\left| \vec{R} \right|^3 }d\theta
 $$
+
 
 $$
 = \frac{k \lambda R}{(R^2 + z^2)^{3/2}} \cdot (-R \cos \phi \hat{x} - R \sin \phi \hat{y} + z \hat{z}) d\phi
 $$
 
+
 $$
 E = \frac{k \lambda R}{(R^2 + z^2)^{3/2}} \int_{0}^{\pi/5} (-R \cos \phi \hat{x} - R \sin \phi \hat{y} + z \hat{z}) d\phi
 $$
+
+
+
+
+$$-R \int_{0}^{\pi/5} \cos \phi \, d\phi = -R \sin \phi \bigg|_{0}^{\pi/5} = -R \sin \frac{\pi}{5}$$
+
+
+
+
+$$\int_{0}^{\pi/5} -R \sin \phi \, d\phi = R \cos \phi \bigg|_{0}^{\pi/5} = R \left( \cos\left(\frac{\pi}{5}\right) - 1 \right)$$
+
+
+
+
+$$\int_{0}^{\pi/5} z \, d\phi = \frac{z \pi}{5}$$
+
+$$
+E = \frac{k \lambda_0 R}{(R^2 + z^2)^{3/2}} \left( -R \sin\left(\frac{\pi}{5}\right) \hat{x} + R \left(\cos\left(\frac{\pi}{5}\right) - 1\right) + z \frac{\pi}{5} \hat{z} \right)
+$$
+---
+# 3.
+![[Pasted image 20260414115301.png]]
