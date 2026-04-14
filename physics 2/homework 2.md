@@ -36,6 +36,42 @@ $$
 $$
 \begin{cases}
 \vec{r}=(0,0,z) \\
-\vec{r}^{'}=R\cos \theta \hat{x}+
+\vec{r}^{'}=R\cos \theta \hat{x}+R\sin \theta \hat{y} \\
+\lambda=\lambda_{0} \\
+\theta=0-\frac{\pi}{5}
 \end{cases}
+$$
+$$
+\Downarrow
+$$
+$$
+\vec{R}=-R\cos \theta \hat{x}+R\sin \theta \hat{y}+z\hat{z}
+$$
+$$
+\left| \vec{R} \right|=\sqrt{ R^{2}+z^{2} } 
+$$
+$$
+\hat{R}=\frac{\vec{R}}{\left| \vec{R} \right| }
+$$
+$$
+\begin{cases}
+dq=\lambda dl \\
+dl=Rd\theta \\
+\Downarrow \\
+dq=\lambda Rd\theta
+\end{cases}
+$$
+$$
+d\vec{E}=k \frac{dq}{\left| \vec{R} \right| }\hat{R}
+$$
+$$
+d\vec{E}=k\lambda \frac{R}{\left| \vec{R} \right|^3 }d\theta
+$$
+
+$$
+= \frac{k \lambda R}{(R^2 + z^2)^{3/2}} \cdot (-R \cos \phi \hat{x} - R \sin \phi \hat{y} + z \hat{z}) d\phi
+$$
+
+$$
+E = \frac{k \lambda R}{(R^2 + z^2)^{3/2}} \int_{0}^{\pi/5} (-R \cos \phi \hat{x} - R \sin \phi \hat{y} + z \hat{z}) d\phi
 $$
