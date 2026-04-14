@@ -119,3 +119,9 @@ dE_{x}=0 \\
 dE_{y}=dE\sin \theta
 \end{cases}
 $$
+$$
+E=\int_{0}^\pi \frac{k\lambda}{R}\sin \theta d\theta
+$$
+$$
+E_{a}=\frac{k\lambda}{R}[-\cos \theta]^\pi_{0}=\frac{2k\lambda}{R}
+$$
