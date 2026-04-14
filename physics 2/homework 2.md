@@ -106,3 +106,16 @@ $$
 ---
 # 3.
 ![[Pasted image 20260414115301.png]]
+At point a:
+$$
+dq = \lambda dl=\lambda R d\theta
+$$
+$$
+dE=k \frac{dq}{R^{2}}=k \frac{\lambda}{R}d\theta
+$$
+$$
+\begin{cases}
+dE_{x}=0 \\
+dE_{y}=dE\sin \theta
+\end{cases}
+$$
