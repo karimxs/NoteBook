@@ -33,3 +33,9 @@ $$
 ---
 # 2.
 ![[Pasted image 20260412133201.png]]
+$$
+\begin{cases}
+\vec{r}=(0,0,z) \\
+\vec{r}^{'}=R\cos \theta \hat{x}+
+\end{cases}
+$$
