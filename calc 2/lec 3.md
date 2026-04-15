@@ -80,3 +80,19 @@ $$
 $$
 f_{n}(x)=x^{n}(1-x^{n})
 $$
+---
+$$
+f_{n}(x)=nxe^{-nx^{2}}
+$$
+$$
+x \in[0,\infty)
+$$
+$$
+\lim_{ n \to \infty } sup_{x}\left| nxe^{-nx^{2}}-0 \right| 
+$$
+$$
+\frac{nx}{e^{nx^2}}=0
+$$
+$$\frac{
+n\cdot e^{nx^2}-x^2e^{nx^2}\cdot x}{e^{nx^2}}
+$$
