@@ -75,72 +75,56 @@ $$
 **Result:** Since $e \approx 2.718$, then $L = \frac{2}{e} < 1$. The series **converges**.
 
 ---
-## **2. Convergence Tests**
+# 1.
+![[Pasted image 20260415200926.png]]
 
-### **א. $\sum_{n=1}^{\infty} \frac{\ln\left(\frac{1}{n^7}+1\right) \cdot \sin(4^n)}{n}$**
+$$\sum_{n=1}^{\infty} \frac{\ln\left(\frac{1}{n^7}+1\right) \cdot \sin(4^n)}{n}$$
 
-- **Absolute Convergence Check:** Look at the absolute value $|a_n|$. We know $|\sin(4^n)| \leq 1$ and for small $x$, $\ln(1+x) \approx x$.
-    
-- **Comparison:** As $n \to \infty$, $\ln(\frac{1}{n^7} + 1) \approx \frac{1}{n^7}$.
-    
-    $$\left| \frac{\ln\left(\frac{1}{n^7}+1\right) \sin(4^n)}{n} \right| \leq \frac{\ln\left(\frac{1}{n^7}+1\right)}{n} \approx \frac{1}{n^8}$$
-    
-- **Result:** Since $\sum \frac{1}{n^8}$ is a convergent $p$-series ($p=8 > 1$), the series **converges absolutely**.
-    
+$$\left| \frac{\ln\left(\frac{1}{n^7}+1\right) \sin(4^n)}{n} \right| \leq \frac{\ln\left(\frac{1}{n^7}+1\right)}{n} \approx \frac{1}{n^8}$$
+
+**Result:** Since $\sum \frac{1}{n^8}$ is a convergent $p$-series ($p=8 > 1$), the series **converges absolutely**.
 
 ---
+# 2.
+![[Pasted image 20260415201051.png]]
+ $$
+ \sum_{n=1}^{\infty} (-1)^n \left(\sqrt{n^2 + 1} - n\right)
+$$
+$$
+\sqrt{n^2+1}-n = \frac{(\sqrt{n^2+1}-n)(\sqrt{n^2+1}+n)}{\sqrt{n^2+1}+n} = \frac{1}{\sqrt{n^2+1}+n}
+$$
+ 
+1. The sequence $b_n = \frac{1}{\sqrt{n^2+1}+n}$ is clearly positive and decreasing.
 
-### **ב. $\sum_{n=1}^{\infty} (-1)^n \left(\sqrt{n^2 + 1} - n\right)$**
+2. $\lim_{n \to \infty} b_n = 0$.
+ Therefore, the series **converges**.
 
-- **Simplify the term:** Multiply by the conjugate:
-    
-    $$\sqrt{n^2+1}-n = \frac{(\sqrt{n^2+1}-n)(\sqrt{n^2+1}+n)}{\sqrt{n^2+1}+n} = \frac{1}{\sqrt{n^2+1}+n}$$
-    
-- **Leibniz Test (Alternating Series):**
-    
-    1. The sequence $b_n = \frac{1}{\sqrt{n^2+1}+n}$ is clearly positive and decreasing.
-        
-    2. $\lim_{n \to \infty} b_n = 0$.
-        
-    
-    - Therefore, the series **converges**.
-        
-- **Absolute Convergence?** $\sum \frac{1}{\sqrt{n^2+1}+n}$ behaves like $\sum \frac{1}{2n}$, which diverges (harmonic series).
-    
-- **Result:** The series **converges conditionally**.
-    
+ **Absolute Convergence?** $\sum \frac{1}{\sqrt{n^2+1}+n}$ behaves like $\sum \frac{1}{2n}$, which diverges (harmonic series).
+
+**Result:** The series **converges conditionally**.
 
 ---
+# 3.
+![[Pasted image 20260415201236.png]]
+$$
+\sum_{n=1}^{\infty} \frac{\cos(n\pi) \ln(7n^3)}{n}
+$$
 
-### **ג. $\sum_{n=1}^{\infty} \frac{\cos(n\pi) \ln(7n^3)}{n}$**
-
-- **Note:** $\cos(n\pi) = (-1)^n$. The series is $\sum (-1)^n \frac{\ln(7n^3)}{n}$.
-    
-- **Leibniz Test:** Let $b_n = \frac{\ln(7n^3)}{n} = \frac{\ln 7 + 3\ln n}{n}$.
-    
-    1. $\lim_{n \to \infty} \frac{\ln 7 + 3\ln n}{n} = 0$ (by L'Hôpital's).
-        
-    2. The sequence is decreasing for sufficiently large $n$.
-        
-- **Absolute Convergence?** $\sum \frac{\ln(7n^3)}{n} > \sum \frac{1}{n}$ for $n$ large enough. Since $\sum \frac{1}{n}$ diverges, the absolute series diverges.
-    
-- **Result:** The series **converges conditionally**.
-    
+1. $\lim_{n \to \infty} \frac{\ln 7 + 3\ln n}{n} = 0$ (by L'Hôpital's).
+2. The sequence is decreasing for sufficiently large $n$.
+**Absolute Convergence?** $\sum \frac{\ln(7n^3)}{n} > \sum \frac{1}{n}$ for $n$ large enough. Since $\sum \frac{1}{n}$ diverges, the absolute series diverges.
+**Result:** The series **converges conditionally**.
 
 ---
-
 ## **3. Proofs**
-
-### **א. Prove that if $\sum a_n^2$ and $\sum b_n^2$ converge, then $\sum |a_n \cdot b_n|$ converges.**
-
+## 1.
 - **Proof:** Use the **AM-GM Inequality** (Arithmetic Mean - Geometric Mean) or the basic inequality $(|a_n| - |b_n|)^2 \geq 0$.
-    
-- Expanding the square gives: $a_n^2 - 2|a_n b_n| + b_n^2 \geq 0$, which rearranges to:
-    
-    $$|a_n b_n| \leq \frac{1}{2}a_n^2 + \frac{1}{2}b_n^2$$
-    
+
+ Expanding the square gives: $a_n^2 - 2|a_n b_n| + b_n^2 \geq 0$, which rearranges to:
+$$|a_n b_n| \leq \frac{1}{2}a_n^2 + \frac{1}{2}b_n^2$$
+
 - Since $\sum a_n^2$ and $\sum b_n^2$ converge, their sum (and half their sum) converges. By the **Comparison Test**, $\sum |a_n b_n|$ must also converge.
-    
+
 
 ### **ב. Prove that if $\sum a_n^2$ converges, then $\sum \frac{|a_n|}{n}$ converges.**
 
