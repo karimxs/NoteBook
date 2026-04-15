@@ -1,4 +1,8 @@
 calc 2
-21-4
+12-5
 dls
-30-4
+3-5
+Hebrew
+3-5
+physics 2
+3-5
