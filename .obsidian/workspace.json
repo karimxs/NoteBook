@@ -13,11 +13,7 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "dls/lec/Digital Logic Systems 2 Spring 2026.pdf",
-                "page": 35,
-                "left": -13,
-                "top": 453,
-                "zoom": 1.1875
+                "file": "dls/lec/Digital Logic Systems 2 Spring 2026.pdf"
               },
               "icon": "lucide-file-text",
               "title": "Digital Logic Systems 2 Spring 2026"
@@ -80,7 +76,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "720be9188073b341",
@@ -186,18 +183,19 @@
       "bases:Create new base": false,
       "pdf-plus:PDF++: Toggle auto-copy": false,
       "pdf-plus:PDF++: Toggle auto-focus": false,
-      "pdf-plus:PDF++: Toggle auto-paste": false
+      "pdf-plus:PDF++: Toggle auto-paste": false,
+      "obsidian-excalidraw-plugin:New drawing": false
     }
   },
   "active": "6b22d7f1f76c289e",
   "lastOpenFiles": [
+    "physics 2/homework 1.md",
+    "dls/lec/Digital Logic Systems 2 Spring 2026.pdf",
     "dls/lec/Digital Logic Systems 3 Spring 2026.pdf",
     "physics 2/homework 2.md",
-    "dls/lec/Digital Logic Systems 2 Spring 2026.pdf",
     "dls/lec",
     "dls",
     "Pasted image 20260414115301.png",
-    "physics 2/homework 1.md",
     "calc 2/homework 1.md",
     "Untitled/homeworks.md",
     "Untitled/Untitled.md",
