@@ -93,6 +93,16 @@ $$
 $$
 \frac{nx}{e^{nx^2}}=0
 $$
-$$\frac{
-n\cdot e^{nx^2}-x^2e^{nx^2}\cdot x}{e^{nx^2}}
+$$
+ne^{nx^2}-x^2e^{nx^2\cdot nx}=0
+$$
+$$
+x=\frac{1}{2n}
+$$
+$$
+\lim_{ n \to \infty } sup_{x}\left| ne^{-n}-0 \right|=0 
+$$
+---
+$$
+f_{n}(x)=nx+s
 $$
