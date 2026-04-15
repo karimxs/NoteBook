@@ -46,3 +46,31 @@ $$
 f(x)=0
 $$
 ---
+$$
+f_{n}(x)=\left( 1+\frac{1}{n} \right)\cdot x^2
+$$
+$$
+x \in [0,1]
+$$
+$$
+f_{n}(x)=1\cdot x^{2}
+$$
+$$
+f(x)=x^2
+$$
+$$
+\left| \left( 1+\frac{1}{n} \right)\cdot x^2 -x^2\right|<\epsilon 
+$$
+$$
+x^2\left| \frac{1}{n} \right|<\epsilon 
+$$
+$$
+\frac{x^{2}}{n}\leq \frac{1}{n}<\epsilon
+$$
+$$
+n> \frac{1}{\epsilon}
+$$
+---
+$$
+\lim_{ n \to \infty }x 
+$$
