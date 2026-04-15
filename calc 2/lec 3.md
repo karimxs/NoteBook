@@ -72,5 +72,11 @@ n> \frac{1}{\epsilon}
 $$
 ---
 $$
-\lim_{ n \to \infty }x 
+\lim_{ n \to \infty }sup \left| f_{n}(x)-f(x) \right|=0\Leftrightarrow  
+$$
+$$
+f_{n}(x)=x^{n}-x^{2n}
+$$
+$$
+f_{n}(x)=x^{n}(1-x^{n})
 $$
