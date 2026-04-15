@@ -1,3 +1,4 @@
+# 1.
 ![[Pasted image 20260415193515.png]]
 $$
 \sum ^{\infty}_{n=1} \frac{n^{2026}}{2026^{n}}
@@ -125,15 +126,10 @@ $$|a_n b_n| \leq \frac{1}{2}a_n^2 + \frac{1}{2}b_n^2$$
 
 - Since $\sum a_n^2$ and $\sum b_n^2$ converge, their sum (and half their sum) converges. By the **Comparison Test**, $\sum |a_n b_n|$ must also converge.
 
+## 2.
 
-### **ב. Prove that if $\sum a_n^2$ converges, then $\sum \frac{|a_n|}{n}$ converges.**
-
-- **Proof:** This is a direct application of the proof in 3.א.
-    
-- Let $b_n = \frac{1}{n}$. We know from 3.א that if $\sum a_n^2$ and $\sum b_n^2$ converge, then $\sum |a_n b_n|$ converges.
-    
-- In this case, we have $|a_n \cdot b_n| = |a_n \cdot \frac{1}{n}|$.
-    
-- Wait! $\sum b_n^2 = \sum (\frac{1}{n})^2 = \sum \frac{1}{n^2}$, which is a **convergent** $p$-series ($p=2$).
-    
-- Since both $\sum a_n^2$ (given) and $\sum \frac{1}{n^2}$ converge, then by the result of 3.א, the series $\sum \frac{|a_n|}{n}$ **converges**.
+**Proof:** This is a direct application of the proof in 3.1.
+Let $b_n = \frac{1}{n}$. We know from 3.א that if $\sum a_n^2$ and $\sum b_n^2$ converge, then $\sum |a_n b_n|$ converges.
+In this case, we have $|a_n \cdot b_n| = |a_n \cdot \frac{1}{n}|$.
+ Wait! $\sum b_n^2 = \sum (\frac{1}{n})^2 = \sum \frac{1}{n^2}$, which is a **convergent** $p$-series ($p=2$).
+ Since both $\sum a_n^2$ (given) and $\sum \frac{1}{n^2}$ converge, then by the result of 3.א, the series $\sum \frac{|a_n|}{n}$ **converges**.
