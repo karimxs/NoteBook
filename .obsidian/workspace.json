@@ -76,8 +76,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "720be9188073b341",
@@ -189,8 +188,9 @@
   },
   "active": "6b22d7f1f76c289e",
   "lastOpenFiles": [
-    "physics 2/homework 1.md",
+    "dls/lec/Drawing 2026-04-15 11.52.51.excalidraw.md",
     "dls/lec/Digital Logic Systems 2 Spring 2026.pdf",
+    "physics 2/homework 1.md",
     "dls/lec/Digital Logic Systems 3 Spring 2026.pdf",
     "physics 2/homework 2.md",
     "dls/lec",
