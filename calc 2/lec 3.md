@@ -104,5 +104,23 @@ $$
 $$
 ---
 $$
-f_{n}(x)=nx+s
+f_{n}(x)=\frac{nx+\sin x}{n+x^2}
+$$
+$$
+x \in[0,2]
+$$
+$$
+\frac{x+\frac{\sin x}{n}}{1+\frac{x^2}{n}}
+$$
+$$
+f(x)=x
+$$
+$$
+\left| \frac{nx+\sin x}{n+x^2} -x\right| 
+$$
+$$\frac{
+(n+\cos x)\cdot(n+x^{2})-2x\cdot (nx+\sin x)}{(n+x^2)^{2}}-1=0
+$$
+$$
+{(n+\cos x)\cdot(n+x^{2})-2x\cdot (nx+\sin x)}={(n+x^2)^{2}}
 $$
