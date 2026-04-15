@@ -18,21 +18,8 @@
               "icon": "lucide-file-text",
               "title": "Digital Logic Systems 3 Spring 2026"
             }
-          },
-          {
-            "id": "280d77329b9de4c8",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2026-04-15 12.28.15.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2026-04-15 12.28.15.excalidraw"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -200,10 +187,10 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "280d77329b9de4c8",
+  "active": "6b22d7f1f76c289e",
   "lastOpenFiles": [
-    "dls/lec/Digital Logic Systems 3 Spring 2026.pdf",
     "Excalidraw/Drawing 2026-04-15 12.28.15.excalidraw.md",
+    "dls/lec/Digital Logic Systems 3 Spring 2026.pdf",
     "dls/lec/Drawing 2026-04-15 12.28.10.excalidraw.md",
     "Excalidraw/Drawing 2026-04-15 12.28.04.excalidraw.md",
     "Excalidraw",
