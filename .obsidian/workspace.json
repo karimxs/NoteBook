@@ -11,14 +11,16 @@
             "id": "6b22d7f1f76c289e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "physics 2/homework 2.md",
-                "mode": "source",
-                "source": false
+                "file": "dls/lec/Digital Logic Systems 2 Spring 2026.pdf",
+                "page": 34,
+                "left": -10,
+                "top": 423,
+                "zoom": 1.5
               },
-              "icon": "lucide-file",
-              "title": "homework 2"
+              "icon": "lucide-file-text",
+              "title": "Digital Logic Systems 2 Spring 2026"
             }
           }
         ]
@@ -78,7 +80,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "720be9188073b341",
@@ -181,15 +184,22 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "pdf-plus:PDF++: Toggle auto-copy": false,
+      "pdf-plus:PDF++: Toggle auto-focus": false,
+      "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
   "active": "6b22d7f1f76c289e",
   "lastOpenFiles": [
+    "dls/lec/Digital Logic Systems 3 Spring 2026.pdf",
+    "dls/lec/Digital Logic Systems 2 Spring 2026.pdf",
+    "physics 2/homework 2.md",
+    "dls/lec",
+    "dls",
     "Pasted image 20260414115301.png",
     "physics 2/homework 1.md",
     "calc 2/homework 1.md",
-    "physics 2/homework 2.md",
     "Untitled/homeworks.md",
     "Untitled/Untitled.md",
     "Pasted image 20260412133201.png",
@@ -206,7 +216,6 @@
     "Pasted image 20260330175657.png",
     "Pasted image 20260330165110.png",
     "Pasted image 20260330143748.png",
-    "Pasted image 20260330143734.png",
     "Untitled",
     "Welcome.md",
     "madr",
