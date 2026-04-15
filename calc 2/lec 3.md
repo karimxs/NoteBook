@@ -19,6 +19,7 @@ f(x)=\begin{cases}
 1  & x=1
 \end{cases}
 $$
+---
 $$
 f_{n}(x)=x^{n}-x^{2n}
 $$
@@ -31,6 +32,7 @@ $$
 $$
 f(x)=0
 $$
+---
 $$
 f_{n}(x)=nxe^{-nx^{2}}
 $$
@@ -40,3 +42,7 @@ $$
 $$
 \frac{nx}{e^{nx^2}}[l'hopital]=\frac{x}{x^2e^{nx^2}}=\frac{1}{xe^{nx^2}}
 $$
+$$
+f(x)=0
+$$
+---
