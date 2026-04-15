@@ -14,10 +14,10 @@
               "type": "pdf",
               "state": {
                 "file": "dls/lec/Digital Logic Systems 2 Spring 2026.pdf",
-                "page": 34,
-                "left": -10,
-                "top": 423,
-                "zoom": 1.5
+                "page": 35,
+                "left": -13,
+                "top": 453,
+                "zoom": 1.1875
               },
               "icon": "lucide-file-text",
               "title": "Digital Logic Systems 2 Spring 2026"
@@ -80,8 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "720be9188073b341",
@@ -193,8 +192,8 @@
   "active": "6b22d7f1f76c289e",
   "lastOpenFiles": [
     "dls/lec/Digital Logic Systems 3 Spring 2026.pdf",
-    "dls/lec/Digital Logic Systems 2 Spring 2026.pdf",
     "physics 2/homework 2.md",
+    "dls/lec/Digital Logic Systems 2 Spring 2026.pdf",
     "dls/lec",
     "dls",
     "Pasted image 20260414115301.png",
