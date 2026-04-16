@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "calc 2/lec 3.md",
+                "file": "Untitled/homeworks.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "lec 3"
+              "title": "homeworks"
             }
           }
         ]
@@ -182,16 +182,16 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "pdf-plus:PDF++: Toggle auto-copy": false,
-      "pdf-plus:PDF++: Toggle auto-focus": false,
-      "pdf-plus:PDF++: Toggle auto-paste": false,
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
   "active": "6b22d7f1f76c289e",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2026-04-15 15.02.22.excalidraw.md",
+    "Ink/Drawing/2026.4.16 - 10.18am.drawing",
+    "Ink/Drawing",
+    "Ink",
     "calc 2/lec 3.md",
+    "Excalidraw/Drawing 2026-04-15 15.02.22.excalidraw.md",
     "dls/lec/Digital Logic Systems 3 Spring 2026.pdf",
     "Untitled.base",
     "Untitled 1.base",
@@ -216,7 +216,6 @@
     "python/homework 2.md",
     "python/homework 1.md",
     "python",
-    "physics 2",
     "code.png",
     "Pasted image 20260330180701.png",
     "Pasted image 20260330180433.png",
@@ -224,7 +223,6 @@
     "Pasted image 20260330175657.png",
     "Pasted image 20260330165110.png",
     "Pasted image 20260330143748.png",
-    "Untitled",
     "Welcome.md"
   ]
 }
