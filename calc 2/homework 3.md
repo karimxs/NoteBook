@@ -37,5 +37,14 @@ $$
 f(x)=\lim_{ n \to \infty } f_{n}(x)=\lim_{ n \to \infty } n\cdot(\sqrt[n]{ 10\cdot x }-1)
 $$
 $$
-
+\lim_{ n \to \infty } n\cdot((10\cdot x)^{1/n}-1)
+$$
+$$
+=\lim_{ n \to \infty } \frac{(10\cdot x)^{1/n}-1}{\frac{1}{n}}
+$$
+$$
+=\lim_{ h \to 0 } \frac{(10\cdot x)^{h}-1}{h}\left\{ L'Hôpital \right\} 
+$$
+$$
+=\lim_{ h \to 0 } 
 $$
