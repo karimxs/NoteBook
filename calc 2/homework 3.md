@@ -46,5 +46,5 @@ $$
 =\lim_{ h \to 0 } \frac{(10\cdot x)^{h}-1}{h}\left\{ L'Hôpital \right\} 
 $$
 $$
-=\lim_{ h \to 0 } 
+=\lim_{ h \to 0 } (10\cdot x)^{h}
 $$
