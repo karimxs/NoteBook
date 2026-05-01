@@ -1,3 +1,4 @@
+# 1.
 ![[Pasted image 20260501191327.png]]
 $$
 f_{n}(x) =\frac{\sin(n\cdot x) +\sin (x)}{n\cdot x}
@@ -15,5 +16,26 @@ $$
 -\frac{1}{\left| n\cdot x \right| }\leq\frac{\sin(n\cdot x)}{n\cdot x}\leq \frac{1}{\left| n\cdot x \right| } 
 $$
 $$
-\lim_{ n \to \infty } 
+\lim_{ n \to \infty } \frac{\sin(n\cdot x)}{n\cdot x} =\lim_{ n \to \infty } \frac{1}{\left| n\cdot x \right| } =0
+$$
+$$
+\lim_{ n \to \infty } \frac{\sin(n\cdot x) +\sin (x)}{n\cdot x}=0
+$$
+$$
+\lim_{ n \to \infty } f_{n}(x)=0
+$$
+---
+# 2.
+![[Pasted image 20260501193848.png]]
+$$
+f_{n}(x)=n\cdot(\sqrt[n]{ 10\cdot x }-1)
+$$
+$$
+x \in (0,\infty)
+$$
+$$
+f(x)=\lim_{ n \to \infty } f_{n}(x)=\lim_{ n \to \infty } n\cdot(\sqrt[n]{ 10\cdot x }-1)
+$$
+$$
+
 $$
