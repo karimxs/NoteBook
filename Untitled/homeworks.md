@@ -1,6 +1,5 @@
 calc 2
 dls
-3-5
 12-5
 Hebrew
 3-5

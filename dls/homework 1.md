@@ -538,3 +538,106 @@ Ignore $C_{out}$ since the $1$ represents $-2^n$, and dropping it resolves to th
 ---
 # 7.
 ![[Pasted image 20260502183931.png]]
+
+$$X = -2^{n-1}a_{n-1} + 2^{n-2}a_{n-2} + \sum_{i=0}^{n-3} 2^i a_i$$
+
+$$\tilde{X} = -2^{n-2}a_{n-2} + \sum_{i=0}^{n-3} 2^i a_i$$
+
+$$X - \tilde{X} = \left(-2^{n-1}a_{n-1} + 2^{n-2}a_{n-2}\right) - \left(-2^{n-2}a_{n-2}\right)$$
+
+$$X - \tilde{X} = -2^{n-1}a_{n-1} + 2^{n-2}a_{n-2} + 2^{n-2}a_{n-2}$$
+
+$$X - \tilde{X} = -2^{n-1}a_{n-1} + 2(2^{n-2}a_{n-2})$$
+
+$$X - \tilde{X} = -2^{n-1}a_{n-1} + 2^{n-1}a_{n-2}$$
+
+$$X - \tilde{X} = 2^{n-1}(a_{n-2} - a_{n-1})$$
+
+**Condition for value change ($X \neq \tilde{X}$):**
+
+$$2^{n-1}(a_{n-2} - a_{n-1}) \neq 0$$
+
+$$a_{n-2} - a_{n-1} \neq 0$$
+
+$$a_{n-1} \neq a_{n-2}$$
+
+$$\blacksquare$$
+
+---
+# 8.
+## a.
+![[Pasted image 20260502184133.png]]
+
+_(Method: Gray $\rightarrow$ Base 2 $\rightarrow$ Base 8. Formula: $b_i = b_{i+1} \oplus g_i$)_
+
+**1. $(110101)_{\text{gray}} \rightarrow (\text{?})_8$**
+
+$$b_5 = \mathbf{1}$$
+
+$$b_4 = 1 \oplus 1 = \mathbf{0}$$
+
+$$b_3 = 0 \oplus 0 = \mathbf{0}$$
+
+$$b_2 = 0 \oplus 1 = \mathbf{1}$$
+
+$$b_1 = 1 \oplus 0 = \mathbf{1}$$
+
+$$b_0 = 1 \oplus 1 = \mathbf{0}$$
+
+$$\implies (100110)_2$$
+
+$$(\underline{100} \;\; \underline{110})_2 \implies \mathbf{(46)_8}$$
+
+**2. $(010010)_{\text{gray}} \rightarrow (\text{?})_8$**
+
+$$b_5 = \mathbf{0}$$
+
+$$b_4 = 0 \oplus 1 = \mathbf{1}$$
+
+$$b_3 = 1 \oplus 0 = \mathbf{1}$$
+
+$$b_2 = 1 \oplus 0 = \mathbf{1}$$
+
+$$b_1 = 1 \oplus 1 = \mathbf{0}$$
+
+$$b_0 = 0 \oplus 0 = \mathbf{0}$$
+
+$$\implies (011100)_2$$
+
+$$(\underline{011} \;\; \underline{100})_2 \implies \mathbf{(34)_8}$$
+
+---
+## b.
+![[Pasted image 20260502184216.png]]
+
+_(Method: $g_i = b_i \oplus b_{i+1}$)_
+
+**1. $(11101)_2 \rightarrow (\text{?})_{\text{gray}}$**
+
+$$g_4 = \mathbf{1}$$
+
+$$g_3 = 1 \oplus 1 = \mathbf{0}$$
+
+$$g_2 = 1 \oplus 1 = \mathbf{0}$$
+
+$$g_1 = 1 \oplus 0 = \mathbf{1}$$
+
+$$g_0 = 0 \oplus 1 = \mathbf{1}$$
+
+$$\implies \mathbf{(10011)_{\text{gray}}}$$
+
+**2. $(101110)_2 \rightarrow (\text{?})_{\text{gray}}$**
+
+$$g_5 = \mathbf{1}$$
+
+$$g_4 = 1 \oplus 0 = \mathbf{1}$$
+
+$$g_3 = 0 \oplus 1 = \mathbf{1}$$
+
+$$g_2 = 1 \oplus 1 = \mathbf{0}$$
+
+$$g_1 = 1 \oplus 1 = \mathbf{0}$$
+
+$$g_0 = 1 \oplus 0 = \mathbf{1}$$
+
+$$\implies \mathbf{(111001)_{\text{gray}}}$$
