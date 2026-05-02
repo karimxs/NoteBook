@@ -161,3 +161,67 @@ $$(.\underline{1110} \;\; \underline{0110} \;\; \underline{0110} ...)_2 \implies
 **Result:**
 
 $$(2F.E66...)_{16}$$
+
+---
+## e.
+![[Pasted image 20260502134904.png]]
+
+
+$$256 \div 2 = 128 \rightarrow R=0$$
+
+$$128 \div 2 = 64 \rightarrow R=0$$
+
+$$64 \div 2 = 32 \rightarrow R=0$$
+
+$$32 \div 2 = 16 \rightarrow R=0$$
+
+$$16 \div 2 = 8 \rightarrow R=0$$
+
+$$8 \div 2 = 4 \rightarrow R=0$$
+
+$$4 \div 2 = 2 \rightarrow R=0$$
+
+$$2 \div 2 = 1 \rightarrow R=0$$
+
+$$1 \div 2 = 0 \rightarrow R=1$$
+
+$$(100000000)_2$$
+
+---
+
+## e.
+![[Pasted image 20260502135015.png]]
+
+**Base 10:**
+
+$$6 \cdot 8^3 + 2 \cdot 8^2 + 5 \cdot 8^1 + 3 \cdot 8^0 + 4 \cdot 8^{-1} + 7 \cdot 8^{-2} + 6 \cdot 8^{-3}$$
+
+$$= 3072 + 128 + 40 + 3 + 0.5 + 0.109375 + 0.01171875$$
+
+$$(3243.621)_{10}$$
+
+**Base 2 (Intermediate):**
+
+$$6 \rightarrow 110, \quad 2 \rightarrow 010, \quad 5 \rightarrow 101, \quad 3 \rightarrow 011$$
+
+$$4 \rightarrow 100, \quad 7 \rightarrow 111, \quad 6 \rightarrow 110$$
+
+$$(110010101011.100111110)_2$$
+
+**Base 4:**
+
+$$2^2 = 4 \implies \text{Group Base 2 by 2 digits}$$
+
+$$(\underline{11} \;\; \underline{00} \;\; \underline{10} \;\; \underline{10} \;\; \underline{10} \;\; \underline{11} \;\; . \;\; \underline{10} \;\; \underline{01} \;\; \underline{11} \;\; \underline{11} \;\; \underline{00})_2$$
+
+$$(302223.2133)_4$$
+
+**Base 16:**
+
+$$2^4 = 16 \implies \text{Group Base 2 by 4 digits}$$
+
+$$(\underline{1100} \;\; \underline{1010} \;\; \underline{1011} \;\; . \;\; \underline{1001} \;\; \underline{1111} \;\; \underline{0000})_2$$
+
+$$(CAB.9F)_{16}$$
+
+---
