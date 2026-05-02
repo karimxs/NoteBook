@@ -227,3 +227,69 @@ $$(CAB.9F)_{16}$$
 ---
 ## f.
 ![[Pasted image 20260502135822.png]]
+
+$$9 = 3^2 \implies \text{1 digit (Base 9)} \rightarrow \text{2 digits (Base 3)}$$
+
+**Integer:**
+
+$$2 \rightarrow 0 \cdot 3^1 + 2 \cdot 3^0 \rightarrow (02)_3$$
+
+$$3 \rightarrow 1 \cdot 3^1 + 0 \cdot 3^0 \rightarrow (10)_3$$
+
+$$8 \rightarrow 2 \cdot 3^1 + 2 \cdot 3^0 \rightarrow (22)_3$$
+
+$$5 \rightarrow 1 \cdot 3^1 + 2 \cdot 3^0 \rightarrow (12)_3$$
+
+**Fraction:**
+
+$$1 \rightarrow 0 \cdot 3^1 + 1 \cdot 3^0 \rightarrow (01)_3$$
+
+$$4 \rightarrow 1 \cdot 3^1 + 1 \cdot 3^0 \rightarrow (11)_3$$
+
+$$5 \rightarrow 1 \cdot 3^1 + 2 \cdot 3^0 \rightarrow (12)_3$$
+
+**Result:**
+
+$$(2102212.011112)_3$$
+
+---
+## g.
+![[Pasted image 20260502140924.png]]
+### **Base 10**
+
+$$1 \cdot 2^5 + 1 \cdot 2^2 + 1 \cdot 2^1 + 1 \cdot 2^0 + 1 \cdot 2^{-2}$$
+
+$$= 32 + 4 + 2 + 1 + 0.25$$
+
+$$(39.25)_{10}$$
+
+---
+
+### **Base 4**
+
+$$2^2 = 4 \implies \text{Group Base 2 by 2}$$
+
+$$(\underline{10} \;\; \underline{01} \;\; \underline{11} \;\; . \;\; \underline{01})_2$$
+
+$$(213.1)_4$$
+
+---
+
+### **Base 8**
+
+$$2^3 = 8 \implies \text{Group Base 2 by 3 (Pad with 0s)}$$
+
+$$(\underline{100} \;\; \underline{111} \;\; . \;\; \underline{010})_2$$
+
+$$(47.2)_8$$
+
+---
+
+### **Base 16**
+
+$$2^4 = 16 \implies \text{Group Base 2 by 4 (Pad with 0s)}$$
+
+$$(\underline{0010} \;\; \underline{0111} \;\; . \;\; \underline{0100})_2$$
+
+$$(27.4)_{16}$$
+---
