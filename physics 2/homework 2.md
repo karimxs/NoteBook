@@ -125,3 +125,4 @@ $$
 $$
 E_{a}=\frac{k\lambda}{R}[-\cos \theta]^\pi_{0}=\frac{2k\lambda}{R}
 $$
+At point b:
