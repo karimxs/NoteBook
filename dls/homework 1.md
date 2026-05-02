@@ -225,3 +225,5 @@ $$(\underline{1100} \;\; \underline{1010} \;\; \underline{1011} \;\; . \;\; \und
 $$(CAB.9F)_{16}$$
 
 ---
+## f.
+![[Pasted image 20260502135822.png]]
