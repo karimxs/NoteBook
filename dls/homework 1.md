@@ -310,3 +310,73 @@ $$= b^0 \cdot B_0 + b^1 \cdot B_1 + b^2 \cdot B_2 + ... = (... B_3 B_2 B_1 B_0)_
 ---
 # 2.
 ![[Pasted image 20260502144331.png]]
+**1. Number: $11$**
+
+$$11_{10} = 1011_2$$
+
+Minimum bits with sign bit: **$01011$** (5 bits)
+
+**2. Number: $-11$**
+
+Base positive: **$01011$**
+
+- **Sign-Magnitude:** Change MSB to 1 $\implies$ **$11011$**
+
+- **1's Complement:** Invert all bits ($0 \leftrightarrow 1$) $\implies$ **$10100$**
+
+- **2's Complement:** 1's Complement + 1 $\implies 10100 + 1 =$ **$10101$**
+
+
+**3. Number: $-14$**
+
+$$14_{10} = 1110_2 \implies \text{Base positive: } \mathbf{01110} \text{ (5 bits)}$$
+
+- **Sign-Magnitude:** Change MSB to 1 $\implies$ **$11110$**
+
+- **1's Complement:** Invert all bits $\implies$ **$10001$**
+
+- **2's Complement:** 1's Complement + 1 $\implies 10001 + 1 =$ **$10010$**
+
+
+**4. Number: $126$**
+
+$$126_{10} = 1111110_2 \implies \text{Base positive: } \mathbf{01111110} \text{ (8 bits)}$$
+
+| **Decimal** | **Positive Binary** | **Sign-Magnitude** | **1's Complement** | **2's Complement** |
+| ----------- | ------------------- | ------------------ | ------------------ | ------------------ |
+| **11**      | $01011$             | $01011$            | $01011$            | $01011$            |
+| **-11**     | $01011$             | $11011$            | $10100$            | $10101$            |
+| **-14**     | $01110$             | $11110$            | $10001$            | $10010$            |
+| **126**     | $01111110$          | $01111110$         | $01111110$         | $01111110$         |
+
+---
+# 3.
+![[Pasted image 20260502182718.png]]
+
+Let a negative number $-x$ be defined by Definition 2 (MSB = 1):
+
+$$-x = -2^{n-1} + a_{n-2} 2^{n-2} + \dots + a_1 2^1 + a_0 2^0$$
+
+Multiply by $-1$ to find the positive value $x$:
+
+$$x = 2^{n-1} - a_{n-2} 2^{n-2} - \dots - a_1 2^1 - a_0 2^0$$
+
+Apply the mathematical identity: $2^{n-1} = 2^{n-2} + \dots + 2^1 + 2^0 + 1$:
+
+$$x = (2^{n-2} + \dots + 2^0 + 1) - a_{n-2} 2^{n-2} - \dots - a_0 2^0$$
+
+Group the coefficients for each power of 2:
+
+$$x = (1 - a_{n-2})2^{n-2} + \dots + (1 - a_1)2^1 + (1 - a_0)2^0 + 1$$
+
+Substitute bit inversion logic $a'_i = (1 - a_i)$:
+
+$$x = a'_{n-2}2^{n-2} + \dots + a'_1 2^1 + a'_0 2^0 + 1$$
+
+This matches Definition 1: $x = (\text{1's Complement of bits}) + 1$.
+
+$$\blacksquare$$
+
+---
+# 4.
+![[Pasted image 20260502182900.png]]
