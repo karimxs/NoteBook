@@ -293,3 +293,24 @@ $$(\underline{0010} \;\; \underline{0111} \;\; . \;\; \underline{0100})_2$$
 
 $$(27.4)_{16}$$
 ---
+The question in the image asks you to prove the fast conversion method between a base $a$ and a base $b$ where $b = a^n$. Specifically, you need to prove that a number $num = (d_{m-1}d_{m-2}...d_1d_0)_a$ can be converted to base $b$ by taking groups of $n$ consecutive digits in base $a$ and converting each group into a single digit in base $b$.
+
+This is the underlying mathematical proof for the shortcut shown in your lectures, such as grouping 4 binary digits to get a single hexadecimal digit (since $16 = 2^4$) or grouping 2 base-3 digits to get a base-9 digit (since $9 = 3^2$).
+
+Here is the step-by-step mathematical proof you can use to solve it:
+
+**1. Express the number using positional weights** According to the definition of number bases, the value of a number can be written as the sum of its digits multiplied by the base raised to the power of their position: $num = d_0 \cdot a^0 + d_1 \cdot a^1 + d_2 \cdot a^2 + \dots + d_{m-1} \cdot a^{m-1}$
+
+**2. Group the terms into blocks of $n$** Assuming $m$ is a multiple of $n$ (if it isn't, we pad the most significant side of the number with leading zeros, which doesn't change its value), we can group the sum into blocks of $n$ digits: $num = (d_0 \cdot a^0 + d_1 \cdot a^1 + \dots + d_{n-1} \cdot a^{n-1}) + (d_n \cdot a^n + d_{n+1} \cdot a^{n+1} + \dots + d_{2n-1} \cdot a^{2n-1}) + \dots$
+
+**3. Factor out the base powers from each group** By factoring out the lowest power of $a$ in each grouped block, we can rewrite the expression as: $num = (d_0 \cdot a^0 + \dots + d_{n-1} \cdot a^{n-1}) \cdot a^0 + (d_n \cdot a^0 + \dots + d_{2n-1} \cdot a^{n-1}) \cdot a^n + \dots$
+
+**4. Substitute $b = a^n$** Since we are given that $b = a^n$, we can substitute $b$ into the factored powers. Because $(a^n)^0 = b^0$, $(a^n)^1 = b^1$, $(a^n)^2 = b^2$, the equation becomes: $num = (d_0 \cdot a^0 + \dots + d_{n-1} \cdot a^{n-1}) \cdot \mathbf{b^0} + (d_n \cdot a^0 + \dots + d_{2n-1} \cdot a^{n-1}) \cdot \mathbf{b^1} + \dots$
+
+**5. Define the new digits in base $b$** Let each grouped sum inside the parentheses be evaluated as a new term, $D_k$: $D_0 = d_0 \cdot a^0 + \dots + d_{n-1} \cdot a^{n-1}$ $D_1 = d_n \cdot a^0 + \dots + d_{2n-1} \cdot a^{n-1}$
+
+The maximum possible value for any group $D_k$ occurs when all its individual digits $d$ are at their maximum value for base $a$, which is $a - 1$. The sum of this maximum sequence calculates exactly to $a^n - 1$. Because $b = a^n$, this maximum value is equal to $b - 1$. Therefore, each $D_k$ calculates to a valid single digit in base $b$.
+
+**6. Form the final number** Substituting $D_k$ back into our equation yields: $num = D_0 \cdot b^0 + D_1 \cdot b^1 + D_2 \cdot b^2 + \dots$
+
+This is the exact mathematical definition of a number represented in base $b$. This concludes the proof, demonstrating that you can safely convert $n$ consecutive digits of base $a$ to directly map them to the individual digits of base $b$.
