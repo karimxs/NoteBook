@@ -126,3 +126,34 @@ $$
 E_{a}=\frac{k\lambda}{R}[-\cos \theta]^\pi_{0}=\frac{2k\lambda}{R}
 $$
 At point b:
+$$dE = \frac{k\lambda}{R} d\theta$$
+
+$$\Downarrow$$
+
+$$d\vec{E} = -\frac{k\lambda}{R} \hat{r} d\theta = -\frac{k\lambda}{R^2} \vec{R} d\theta$$
+
+$$= -\frac{k\lambda}{R^2} R(\cos\theta \hat{x} + \sin\theta \hat{y}) d\theta$$
+
+$$= -\frac{k\lambda}{R} (\cos\theta \hat{x} + \sin\theta \hat{y}) d\theta$$
+
+$$-\frac{\pi}{2} \le \theta \le \frac{\pi}{2}$$
+
+$$E = -\frac{k\lambda}{R} \int_{-\pi/2}^{\pi/2} (\cos\theta \hat{x} + \sin\theta \hat{y}) d\theta$$
+
+$\underline{x:}$
+
+$$\int_{-\pi/2}^{\pi/2} \cos\theta d\theta = \sin\theta \Big|_{-\pi/2}^{\pi/2} = 1 - (-1) = 2$$
+
+$\underline{y:}$
+
+$$\int_{-\pi/2}^{\pi/2} \sin\theta d\theta = -\cos\theta \Big|_{-\pi/2}^{\pi/2} = 0$$
+
+$$\Downarrow$$
+
+$$E = -\frac{2k\lambda}{R} \hat{x}$$
+
+---
+# 4.
+![[Pasted image 20260502202445.png]]
+
+$$dE = \frac{k}{R^2} dq \hat{r} \quad\quad\quad\quad dq = \lambda dx$$
