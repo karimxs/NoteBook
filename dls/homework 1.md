@@ -90,4 +90,3 @@ $$ 22 \ | \ 21 \ . \ 12 $$
 
 $$ = (2221.12)_{3} $$
 
-Would you like me to continue with the rest of Question 1 in English?
