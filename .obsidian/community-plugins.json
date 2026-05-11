@@ -1,7 +1,5 @@
 [
   "obsidian-git",
   "obsidian-latex-suite",
-  "obsidian-languagetool-plugin",
-  "obsidian-excalidraw-plugin",
-  "ink"
+  "obsidian-languagetool-plugin"
 ]

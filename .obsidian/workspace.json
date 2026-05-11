@@ -1,24 +1,24 @@
 {
   "main": {
-    "id": "efd206d319ae25bf",
+    "id": "e9be7de9f5db5986",
     "type": "split",
     "children": [
       {
-        "id": "6e7074f110c83f0a",
+        "id": "1064ff39f1d93986",
         "type": "tabs",
         "children": [
           {
-            "id": "6b22d7f1f76c289e",
+            "id": "be4d939b14958376",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled/homeworks.md",
+                "file": "python/Untitled.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "homeworks"
+              "title": "Untitled"
             }
           }
         ]
@@ -27,15 +27,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "cdabd8b269d4045f",
+    "id": "435bc0e3adbddbb5",
     "type": "split",
     "children": [
       {
-        "id": "6af087e463024598",
+        "id": "d8b8a2e20e537ad4",
         "type": "tabs",
         "children": [
           {
-            "id": "742d27649d7aff89",
+            "id": "a2b7be0482511b09",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -48,7 +48,7 @@
             }
           },
           {
-            "id": "24efdc0d7eab9372",
+            "id": "f54e59e88a919fa0",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -65,7 +65,7 @@
             }
           },
           {
-            "id": "3d369c2d8b470b11",
+            "id": "99c927fdba1a6d16",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -81,20 +81,20 @@
     "width": 300
   },
   "right": {
-    "id": "720be9188073b341",
+    "id": "0c691ae2baa6e46e",
     "type": "split",
     "children": [
       {
-        "id": "6ee086b24297dbec",
+        "id": "4a5c63ca4b7938ef",
         "type": "tabs",
         "children": [
           {
-            "id": "3b63b5d54e31ddee",
+            "id": "11dd2a68e37f4ddb",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "calc 2/homework 1.md",
+                "file": "python/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,25 +104,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for homework 1"
+              "title": "Backlinks for Untitled"
             }
           },
           {
-            "id": "d46812493166d1b3",
+            "id": "5dc9b39d41242802",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "calc 2/homework 1.md",
+                "file": "python/Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from homework 1"
+              "title": "Outgoing links from Untitled"
             }
           },
           {
-            "id": "6a9fa3f0c4c7a7b9",
+            "id": "e9b3e4db70426f96",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -137,7 +137,7 @@
             }
           },
           {
-            "id": "08114f710f8dbece",
+            "id": "5a2e7121d8052d20",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -151,18 +151,18 @@
             }
           },
           {
-            "id": "1e4ad3d1ba74299c",
+            "id": "42b6acc7c6a3b3ec",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "calc 2/homework 1.md",
+                "file": "python/Untitled.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of homework 1"
+              "title": "Outline of Untitled"
             }
           }
         ]
@@ -174,7 +174,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-git:Open Git source control": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -182,47 +181,9 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "obsidian-excalidraw-plugin:New drawing": false
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6b22d7f1f76c289e",
-  "lastOpenFiles": [
-    "Ink/Drawing/2026.4.16 - 10.18am.drawing",
-    "Ink/Drawing",
-    "Ink",
-    "calc 2/lec 3.md",
-    "Excalidraw/Drawing 2026-04-15 15.02.22.excalidraw.md",
-    "dls/lec/Digital Logic Systems 3 Spring 2026.pdf",
-    "Untitled.base",
-    "Untitled 1.base",
-    "Excalidraw/Drawing 2026-04-15 13.12.26.excalidraw.md",
-    "Excalidraw/Drawing 2026-04-15 12.28.15.excalidraw.md",
-    "dls/lec/Drawing 2026-04-15 12.28.10.excalidraw.md",
-    "Excalidraw/Drawing 2026-04-15 12.28.04.excalidraw.md",
-    "Excalidraw",
-    "dls/lec/Digital Logic Systems 2 Spring 2026.pdf",
-    "dls/lec/Drawing 2026-04-15 11.52.51.excalidraw.md",
-    "physics 2/homework 1.md",
-    "physics 2/homework 2.md",
-    "dls/lec",
-    "dls",
-    "Pasted image 20260414115301.png",
-    "calc 2/homework 1.md",
-    "Untitled/homeworks.md",
-    "Untitled/Untitled.md",
-    "Pasted image 20260412133201.png",
-    "Pasted image 20260412114806.png",
-    "python/homework 3.md",
-    "python/homework 2.md",
-    "python/homework 1.md",
-    "python",
-    "code.png",
-    "Pasted image 20260330180701.png",
-    "Pasted image 20260330180433.png",
-    "Pasted image 20260330175723.png",
-    "Pasted image 20260330175657.png",
-    "Pasted image 20260330165110.png",
-    "Pasted image 20260330143748.png",
-    "Welcome.md"
-  ]
+  "active": "a2b7be0482511b09",
+  "lastOpenFiles": []
 }
