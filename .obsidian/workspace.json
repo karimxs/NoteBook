@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled/homeworks.md",
+                "file": "calc 2/homework 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "homeworks"
+              "title": "homework 1"
             }
           }
         ],
@@ -211,6 +211,10 @@
   },
   "active": "fc07e5ebfaa4e6d0",
   "lastOpenFiles": [
+    "ODE/homework 1.md",
+    "Pasted image 20260519153217.png",
+    "Untitled/homeworks.md",
+    "ODE",
     "python/homework 6.md",
     "homework 6.pdf",
     "Pasted image 20260519124711.png",
@@ -222,9 +226,7 @@
     "Pasted image 20260519123551.png",
     "Pasted image 20260519123444.png",
     "Pasted image 20260519123252.png",
-    "Pasted image 20260519123050.png",
     "python/Untitled.md",
-    "Untitled/homeworks.md",
     "dls/homework 2.md",
     "calc 2/homework 3.md",
     "conflict-files-obsidian-git.md",
