@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ODE/homework 1.md",
+                "file": "Untitled/homeworks.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "homework 1"
+              "title": "homeworks"
             }
           }
         ],
@@ -209,11 +209,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a2b7be0482511b09",
+  "active": "fc07e5ebfaa4e6d0",
   "lastOpenFiles": [
+    "ODE/homework 1.md",
     "Untitled/homeworks.md",
     "ODE/homework 2.md",
-    "ODE/homework 1.md",
     "python/Untitled.md",
     "Pasted image 20260519161608.png",
     "Pasted image 20260519161247.png",
