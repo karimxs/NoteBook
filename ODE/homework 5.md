@@ -30,7 +30,7 @@ $$P_y = 6xy^2 = Q_x$$
 
 The ODE is indeed exact!
 
-Therefore it remains to solve it according to our standard method for solving exact ODEs (reminder - formula sheet).
+Therefore it remains to solve it according to our standard method for solving exact ODEs 
 
 We will find $F$ by calculating the integral $F = \int Qdy + c(x)$:
 
@@ -80,7 +80,6 @@ The forces acting on the ball are the force of gravity which is equal to $m \cdo
 
 Within how much time will the ball reach its maximum height? What is the maximum height the ball will reach?
 
-(You can give an approximate answer to three decimal places).
 
 **Solution:**
 
