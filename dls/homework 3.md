@@ -16,3 +16,9 @@ $$
 ---
 # c.
 $$f(a, b, c) = a'bc + ab'c + abc' + abc$$
+![[WhatsApp Image 2026-05-24 at 17.29.38.jpeg]]
+$$
+f(a,b,c)= ac+ab+bc
+$$
+---
+# 2.
