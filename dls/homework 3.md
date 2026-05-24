@@ -36,3 +36,57 @@ We will use 4 XOR gates to compare each pair of bits individually:
 ![[WhatsApp Image 2026-05-24 at 17.40.42.jpeg]]
 ---
 # 3.
+A 3→8 decoder receives a 3-digit number. We will divide the number into $b_2, b_1, b_0$ where the position of the digit is according to the index.
+![[WhatsApp Image 2026-05-24 at 17.58.53.jpeg]]
+
+---
+# 4.
+Here is the translation of the handwritten notes, structured to follow the flow of the mathematical proof on the page:
+
+**Analyzing the Original Function**
+
+> We will analyze the original function from the question:
+> 
+> $$f(x,w,y,z) = \overline{wx\overline{y}z} + \bar{x}y(z+\overline{w}) + xz(w+y)$$
+
+**Analyzing the Fault**
+
+> The fault states that the value of F (the output of gate 1) is stuck at value $1$.
+> 
+> Meaning, the gate is $z+\overline{w} = 1$
+> 
+> And therefore, the value of the AND gate is: $\bar{x}y \cdot 1 = \bar{x}y$
+> 
+> And therefore the faulty function will look like:
+> 
+> $$f_{faulty}(x,w,y,z) = \overline{wx\overline{y}z} + \bar{x}y + xz(w+y)$$
+
+**Checking for Equivalence**
+
+> Let's see now that the two functions are not equivalent:
+> 
+> The only difference between the two functions is in the middle expression.
+> 
+> $$f_{orig} \stackrel{?}{\equiv} f_{faulty}$$
+> 
+> $$\bar{x}y \not\equiv \bar{x}y(z+\overline{w})$$
+> 
+> The two expressions are not identical. Therefore, we will not always get equality.
+
+**Proof by Counterexample**
+
+> If we substitute, for example, $w=1, z=0, x=0, y=1$ we will get:
+> 
+> $$(\overline{0}) \cdot 1 \stackrel{?}{\equiv} (\overline{0}) \cdot 1(0+\overline{1})$$
+> 
+> $$1 \stackrel{?}{\equiv} 1 \cdot 0$$
+> 
+> $$1 \neq 0$$
+> 
+> And we will get:
+> 
+> $$f_{faulty}(x,w,y,z) = 1$$
+> 
+> $$f_{orig}(x,w,y,z) = 0$$
+> 
+> **And therefore there is a detectable fault.**
