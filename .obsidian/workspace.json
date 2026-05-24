@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "STL/homework 2.md",
+                "file": "physics 2/homework 4.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "homework 2"
+              "title": "homework 4"
             }
           }
         ],
@@ -211,6 +211,8 @@
   },
   "active": "fc07e5ebfaa4e6d0",
   "lastOpenFiles": [
+    "STL/homework 2.md",
+    "physics 2/homework 4.md",
     "homework 2.pdf",
     "Pasted image 20260524145059.png",
     "Pasted image 20260524144711.png",
@@ -218,7 +220,6 @@
     "Pasted image 20260524144127.png",
     "Pasted image 20260524143636.png",
     "ODE/homework 2.md",
-    "STL/homework 2.md",
     "STL",
     "ODE/homework 1.md",
     "dls/homework 2.md",
