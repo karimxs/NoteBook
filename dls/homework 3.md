@@ -9,4 +9,10 @@ $$
 $$
 f(w, x, y, z) = \sum(1, 3, 10, 14) + \sum_{\emptyset}(0, 4, 8, 11, 12, 15)
 $$
-![[Pasted image 20260524171622.png]]
+![[WhatsApp Image 2026-05-24 at 17.22.56.jpeg]]
+$$
+f(x,y,w,z)=\overline{wx}z+wy
+$$
+---
+# c.
+$$f(a, b, c) = a'bc + ab'c + abc' + abc$$
