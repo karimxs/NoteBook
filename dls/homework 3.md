@@ -22,3 +22,17 @@ f(a,b,c)= ac+ab+bc
 $$
 ---
 # 2.
+The main characteristic of an Exclusive OR (XOR) gate is that it outputs $0$ when its two inputs are identical ($0,0$ or $1,1$), and outputs $1$ when they are different.
+
+We will use 4 XOR gates to compare each pair of bits individually:
+
+- $X_0 = A_0 \oplus B_0$
+    
+- $X_1 = A_1 \oplus B_1$
+    
+- $X_2 = A_2 \oplus B_2$
+    
+- $X_3 = A_3 \oplus B_3$
+![[WhatsApp Image 2026-05-24 at 17.40.42.jpeg]]
+---
+# 3.
