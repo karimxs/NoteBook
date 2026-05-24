@@ -1,111 +1,58 @@
-# 1.
-![[Pasted image 20260519153217.png]]
-A. $(y'')^4 + 5xy = e^{3x}$
+### Question 1
 
-- **Order: 2** (The highest derivative is the second derivative, $y''$)
+Determine the order of the following ODEs (Ordinary Differential Equations):
 
+- **a.** $(y'')^2 + 5xy = e^x$ Note that the highest derivative is **2**, and therefore it is a second-order ODE.
+    
+- **b.** $x^2y' - xy = 2x$ Note that the highest derivative is **1**, and therefore it is a first-order ODE.
+    
+- **c.** $xy' + y''' = (x - 1)y'' + x$ Note that the highest derivative is **3**, and therefore it is a third-order ODE.
+    
 
-**B.** $x^2y' - xy = 2x$
+### Question 2
 
-- **Order: 1** (The highest derivative is the first derivative, $y'$)
+Convert the following ODEs from standard notation to differential notation:
 
+- **a.** $yy' = x$
+    
+    $$y \frac{dy}{dx} = x$$
+    
+    $$y dy = x dx$$
+    
+- **b.** $x^2e^{2y}y' = x\sin(2x) - xye^{2y}$
+    
+    $$x^2e^{2y}\frac{dy}{dx} = x\sin(2x) - xye^{2y}$$
+    
+    $$x^2e^{2y}dy = (x\sin(2x) - xye^{2y})dx$$
+    
 
-**C.** $xy' + y''' = (x-1)y'' + x$
+### Question 3
 
-- **Order: 3** (The highest derivative is the third derivative, $y'''$)
----
-# 2.
-![[Pasted image 20260519154233.png]]
-**A.**
+Convert the following ODEs from differential notation to standard notation:
 
-$$yy' = x$$
+- **a.** $dy = y dx$
+    
+    $$\frac{dy}{dx} = y$$
+    
+    $$y' = y$$
+    
+- **b.** $\frac{1}{y^2}dy = \frac{x}{\sqrt{1+x^2}} dx$
+    
+    $$\frac{1}{y^2}\frac{dy}{dx} = \frac{x}{\sqrt{1+x^2}}$$
+    
+    $$\frac{1}{y^2}y' = \frac{x}{\sqrt{1+x^2}}$$
+    
 
-Replace $y'$ with $\frac{dy}{dx}$.
+### Question 4
 
-$$y \frac{dy}{dx} = x$$
+Determine for each of the following expressions whether it constitutes a solution to an ODE. If not, simplify the expression (if possible) so that it becomes a solution to an ODE.
 
-Multiply both sides by $dx$.
-
-$$y \, dy = x \, dx$$
-
-Rearrange the terms to one side.
-
-$$x \, dx - y \, dy = 0$$
-
----
-
-**B.**
-
-$$x^2e^{xy}y' = x\sin(2x) - xye^{xy}$$
-
-Replace $y'$ with $\frac{dy}{dx}$.
-
-$$x^2e^{xy}\frac{dy}{dx} = x\sin(2x) - xye^{xy}$$
-
-Multiply both sides by $dx$.
-
-$$x^2e^{xy} \, dy = (x\sin(2x) - xye^{xy}) \, dx$$
-
-Rearrange the terms to one side (subtracting the left side from the right).
-
-$$(x\sin(2x) - xye^{xy}) \, dx - x^2e^{xy} \, dy = 0$$
----
-# 3.
-![[Pasted image 20260519160237.png]]
-**A.**
-
-$$dy = ydx$$
-
- Divide both sides by $dx$ to group the differentials.
-
-$$\frac{dy}{dx} = y$$
-
- Replace $\frac{dy}{dx}$ with $y'$.
-
-$$y' = y$$
-
----
-
-**B.**
-
-$$\frac{1}{y^3}dy = \frac{x}{\sqrt{1+x^2}}dx$$
-
- Divide both sides by $dx$ to isolate $\frac{dy}{dx}$ on the left side.
-
-$$\frac{1}{y^3} \frac{dy}{dx} = \frac{x}{\sqrt{1+x^2}}$$
-
- Replace $\frac{dy}{dx}$ with $y'$.
-
-$$\frac{1}{y^3} y' = \frac{x}{\sqrt{1+x^2}}$$
-
----
-# 4.
-![[Pasted image 20260519160418.png]]
-**A.**
-
-$$y^2 = x^2 + c$$
-
- If we differentiate this implicitly, we get $2yy' = 2x$, which simplifies to the ODE $yy' = x$. Integrating that ODE yields exactly $y^2 = x^2 + c$. The constant $c$ is a simple, arbitrary real number with no algebraic restrictions placed upon it.
-
-**B.**
-
-$$\ln|y| = 2x + c$$
-
- Differentiating this gives $\frac{1}{y}y' = 2$, which is the ODE $y' = 2y$. The constant $c$ can be any real number, so this implicit equation successfully represents the family of solutions.
-
-
-**C.**
-
-$$y = \cos(x) + e^c$$
-
- If we differentiate this equation, the constant term $e^c$ disappears, leaving the ODE $y' = -\sin(x)$.
-
-To find the true general solution of this ODE, we integrate: $\int -\sin(x) dx = \cos(x) + C$, where $C$ can be _any_ real number (positive, negative, or zero).
-
-However, in the given expression, the term $e^c$ is strictly positive ($e^c > 0$). It is impossible for $e^c$ to represent a negative constant or zero. Because it restricts the family of curves, it is not a complete general solution.
-
- **Conclusion:** **No**, it is not a valid general solution in its current form.
-
- **Simplified Form:** We fix this by replacing the restricted term $e^c$ with a standard, unrestricted constant $C$. The simplified valid solution is:
-
-$$y = \cos(x) + C$$
+- **a.** $y^2 = x^2 + c$ **No.** The solution appears implicitly in the equation, and therefore it does not constitute a solution to the ODE. The solution is: $y = \pm\sqrt{x^2 + c}$.
+    
+- **b.** $\ln|y| [cite_start]= 2x + c$ This expression also does not constitute a solution to an ODE. We will want to isolate $y$ from the equation:
+    
+    $$|y| = e^{2x+c}$$
+    
+    $$y = \pm e^{2x+c}$$
+    
+- **c.** $y = \cos(x) + e^x$ **Yes.** This is indeed a function, and therefore it constitutes a solution to an ODE.
