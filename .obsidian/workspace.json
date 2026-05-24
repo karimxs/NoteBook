@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled/homeworks.md",
-                "mode": "source",
+                "file": "python/Homework 7.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "homeworks"
+              "title": "Homework 7"
             }
           }
         ],
@@ -211,8 +211,9 @@
   },
   "active": "fc07e5ebfaa4e6d0",
   "lastOpenFiles": [
-    "ODE/homework 1.md",
     "Untitled/homeworks.md",
+    "python/Homework 7.md",
+    "ODE/homework 1.md",
     "ODE/homework 2.md",
     "python/Untitled.md",
     "Pasted image 20260519161608.png",
