@@ -227,3 +227,141 @@ $$(f \circ f)(1) = f(f(1)) = f(2) = 2$$
 Since $(f \circ f)(1) = 2$, but $I_A(1) = 1$, we can clearly see that $f \circ f \neq I_A$.
 
 **Conclusion:** We have found a valid function where $R_f$ is transitive, yet $f \circ f \neq I_A$. Therefore, the general claim is false.
+
+---
+## b.
+ Let $A$ be a non-empty set and $f: A \rightarrow A$ be a function. The relation $R_f$ on $A$ is defined as: $x R_f y$ if and only if $y = f(x)$.
+
+**The Claim:** If $R_f$ is symmetric, then $f \circ f = I_A$ (where $I_A$ is the identity function on $A$, meaning $f(f(x)[cite_start]) = x$ for all $x \in A$ ).
+
+**Verdict: The claim is TRUE.**
+
+### **Proof:**
+
+1. Let $x$ be an arbitrary element in the set $A$ ($x \in A$).
+    
+2. Let $y$ be the image of $x$ under the function $f$, meaning we define $y = f(x)$.
+    
+3. By the definition of the relation, since $y = f(x)$, it holds that $x R_f y$.
+    
+4. We are given the premise that the relation $R_f$ is symmetric. By the definition of symmetry, if $x R_f y$ holds, then $y R_f x$ must also hold.
+    
+5. According to the definition of our relation, the statement $y R_f x$ translates exactly to the equation $x = f(y)$.
+    
+6. Now, we take the equation $x = f(y)$ and substitute $y$ with our original definition $y = f(x)$:
+    
+    $$x = f(f(x))$$
+    
+7. This can be rewritten using function composition notation as $(f \circ f)(x) = x$.
+    
+8. Because we chose $x$ to be an arbitrary element in $A$, this equation holds for every element in the set. Therefore, the composition of $f$ with itself is indeed the identity function: $f \circ f = I_A$.
+
+---
+# 4.
+![[Pasted image 20260524144711.png]]
+## a.
+
+The function $f: \mathbb{Z} \rightarrow \mathbb{N}^2$ is defined as:
+
+$$f(z) = \begin{cases} (z, 0) & z \ge 0 \\ (-z, 1) & z < 0 \end{cases}$$
+
+**Injective (One-to-One):** Yes. Suppose $f(z_1) = f(z_2)$.
+
+If the resulting image has $0$ as the second coordinate, then both inputs must be non-negative ($z_1, z_2 \ge 0$). This gives $(z_1, 0) = (z_2, 0)$, which means $z_1 = z_2$.
+
+If the resulting image has $1$ as the second coordinate, then both inputs must be negative ($z_1, z_2 < 0$). This gives $(-z_1, 1) = (-z_2, 1)$, meaning $-z_1 = -z_2$, so $z_1 = z_2$.
+
+A case where one maps to $0$ and the other to $1$ is impossible since $0 \neq 1$.
+
+**Surjective (Onto):** No. The codomain is $\mathbb{N}^2$ (all ordered pairs of natural numbers). Consider the element $(1, 2) \in \mathbb{N}^2$. There is no integer $z \in \mathbb{Z}$ that satisfies $f(z) = (1, 2)$ because the second coordinate of the output can only ever be $0$ or $1$.
+
+**Invertible:** No, because the function is not surjective (a function must be both injective and surjective to be invertible).
+
+---
+## b.
+
+Let $A, U$ be non-empty sets where $A \subseteq U$.
+
+The function $f: \mathcal{P}(U) \rightarrow \mathcal{P}(U)$ is defined by $f(B) = A \cup B$ for all $B \subseteq U$.
+
+**Injective (One-to-One):** No. Because $A$ is explicitly stated to be non-empty, we can pick two distinct sets from the domain: $B_1 = A$ and $B_2 = \emptyset$. Clearly, $B_1 \neq B_2$. However, plugging them into the function yields:
+
+$f(B_1) = A \cup A = A$
+
+$f(B_2) = A \cup \emptyset = A$
+
+Since $f(B_1) = f(B_2)$, the function is not injective.
+
+**Surjective (Onto):** No. The target codomain is the power set $\mathcal{P}(U)$, which contains the empty set $\emptyset$. For any input $B$, the output is $A \cup B$. Since $A$ is non-empty, the union $A \cup B$ will always contain at least the elements of $A$ and can therefore never be the empty set. Thus, $\emptyset$ has no pre-image.
+
+**Invertible:** No, because it is neither injective nor surjective.
+
+---
+## c.
+
+Let $A \neq \emptyset$.
+
+The function $f: A \rightarrow \mathcal{P}(\mathcal{P}(A))$ is defined by $f(a) = \{B \in \mathcal{P}(A) \mid a \in B\}$.
+
+**Injective (One-to-One):** Yes. Let $a_1, a_2 \in A$ such that $a_1 \neq a_2$. Consider the singleton set $\{a_1\}$, which is an element of $\mathcal{P}(A)$. Because $a_1 \in \{a_1\}$, the definition of our function dictates that $\{a_1\} \in f(a_1)$. However, because $a_1 \neq a_2$, the element $a_2$ is not in the set $\{a_1\}$, meaning $\{a_1\} \notin f(a_2)$. Since $f(a_1)$ contains an element that $f(a_2)$ does not, $f(a_1) \neq f(a_2)$.
+
+**Surjective (Onto):** No. By Cantor's Theorem, the cardinality of any set is strictly less than the cardinality of its power set. Therefore, $|A| < |\mathcal{P}(A)| < |\mathcal{P}(\mathcal{P}(A))|$. Since the domain is strictly smaller than the codomain, no surjective mapping can exist.
+
+(Alternative proof: The empty set $\emptyset \in \mathcal{P}(\mathcal{P}(A))$ has no pre-image because for any $a$, the output set $f(a)$ will always contain at least the set $\{a\}$, meaning $f(a)$ is never empty).
+
+**Invertible:** No, because it is not surjective.
+
+---
+# 5.
+![[Pasted image 20260524145059.png]]
+Let $A$ and $B$ be sets such that $A \sim B$. By the definition of equipollence (having the same cardinality), there exists a bijective function $f: A \rightarrow B$.
+
+We need to prove that $\mathcal{P}(A) \sim \mathcal{P}(B)$, which means we must construct a bijective function $F: \mathcal{P}(A) \rightarrow \mathcal{P}(B)$.
+
+Let us define the function $F$ such that for any subset $X \subseteq A$ (meaning $X \in \mathcal{P}(A)$), the output is the direct image of $X$ under the function $f$:
+
+$$F(X) = \{f(x) \mid x \in X\}$$
+
+To prove this forms a bijection, we must show that $F$ is both injective and surjective.
+
+**Injective (One-to-One):**
+
+Suppose $F(X_1) = F(X_2)$ for some subsets $X_1, X_2 \in \mathcal{P}(A)$.
+
+Let $x$ be an arbitrary element in $X_1$. This means $f(x) \in F(X_1)$.
+
+Since $F(X_1) = F(X_2)$, it follows that $f(x) \in F(X_2)$.
+
+By the definition of our function $F$, this means there must exist some element $y \in X_2$ such that $f(x) = f(y)$.
+
+Because the original function $f$ is known to be a bijection, it is injective. This means $f(x) = f(y)$ implies $x = y$.
+
+Since $y \in X_2$ and $x = y$, it follows that $x \in X_2$. Thus, we have shown that every element in $X_1$ is also in $X_2$, meaning $X_1 \subseteq X_2$.
+
+By applying the exact same logic in reverse (starting with an element in $X_2$), we can show $X_2 \subseteq X_1$.
+
+Since $X_1 \subseteq X_2$ and $X_2 \subseteq X_1$, we conclude that $X_1 = X_2$. This proves that $F$ is injective.
+
+**Surjective (Onto):**
+
+Let $Y$ be an arbitrary element of the codomain, meaning $Y \subseteq B$ ($Y \in \mathcal{P}(B)$).
+
+We need to find a pre-image set $X \in \mathcal{P}(A)$ such that $F(X) = Y$.
+
+Let $X$ be the pre-image of the set $Y$ under the original function $f$, defined as:
+
+$$X = \{a \in A \mid f(a) \in Y\}$$
+
+Because $X$ consists only of elements from $A$, it is clear that $X \subseteq A$, so $X \in \mathcal{P}(A)$.
+
+Now let's apply our function $F$ to this set $X$:
+
+$$F(X) = \{f(x) \mid x \in X\} = \{f(x) \mid f(x) \in Y\}$$
+
+Because the original function $f$ is surjective, every element $y \in Y$ has at least one corresponding element $x \in A$ such that $f(x) = y$. Thus, the collection of all outputs $\{f(x) \mid f(x) \in Y\}$ exactly reconstructs the entire set $Y$.
+
+This means $F(X) = Y$, proving that every possible subset $Y$ in the codomain has a pre-image. Therefore, $F$ is surjective.
+
+**Conclusion:**
+
+Since we have successfully constructed a function $F: \mathcal{P}(A) \rightarrow \mathcal{P}(B)$ and proven it is both injective and surjective, $F$ is a bijection. Therefore, the power sets share the same cardinality, and $\mathcal{P}(A) \sim \mathcal{P}(B)$ holds true.
