@@ -89,3 +89,7 @@ $$E_{eq_1} \cdot E_{eq_2} = \begin{cases} (B_2B_3 = A_2A_3) & \text{- when the M
 
 $$E_{gt_1} + (G_{gt_2} \cdot E_{eq_1}) \begin{cases} \text{- when the MSB digits of A are greater than B's} \\ \text{- or the MSB are equal, and then we check the LSB digits} \end{cases}$$
 
+![[Pasted image 20260531124752.png]]
+
+---
+# 6.
