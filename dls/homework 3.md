@@ -93,3 +93,35 @@ $$E_{gt_1} + (G_{gt_2} \cdot E_{eq_1}) \begin{cases} \text{- when the MSB digits
 
 ---
 # 6.
+Here are the step-by-step solutions and explanations for both digital logic questions from your image.
+
+### **Question 6 Solution**
+
+**The Goal:** Design a 4-input combinational circuit where the output is `1` if:
+
+- All inputs are `1`
+    
+- No inputs are `1` (all are `0`)
+    
+- There is an odd number of `1`s
+    
+
+Let's define the four inputs as $A, B, C, D$ and the output as $F$. We can break the requirements down into three distinct Boolean expressions and OR them together:
+
+1. **"All inputs are equal to 1":** This is only true when $A=1, B=1, C=1, D=1$.
+    
+- Expression: $A \cdot B \cdot C \cdot D$
+    
+2. **"No input is equal to 1":** This means all inputs are `0`.
+    
+- Expression: $\overline{A} \cdot \overline{B} \cdot \overline{C} \cdot \overline{D}$
+    
+3. **"An odd number of inputs is equal to 1":** In digital logic, an XOR gate acts as an odd-parity generator. If you XOR all inputs together, the result is `1` whenever an odd number of those inputs are `1` (i.e., one or three `1`s).
+    
+- Expression: $A \oplus B \oplus C \oplus D$
+    
+
+
+
+
+$$F = (A \cdot B \cdot C \cdot D) + (\overline{A} \cdot \overline{B} \cdot \overline{C} \cdot \overline{D}) + (A \oplus B \oplus C \oplus D)$$
