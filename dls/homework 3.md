@@ -58,3 +58,18 @@ If we substitute, for example, $w=1, z=0, x=0, y=1$ we will get:$$(\overline{0})
 # 5.
 ![[Pasted image 20260531121132.png]]
 ![[Pasted image 20260531121530.png]]
+
+$$f_{eq}(A,B) = \overline{A_0}\overline{A_1}\overline{B_0}\overline{B_1} + \overline{A_0}A_1\overline{B_0}B_1 + A_0A_1B_0B_1 + A_0\overline{A_1}B_0\overline{B_1}$$
+
+$$\overline{A_0}(\overline{A_1}\overline{B_0}\overline{B_1} + A_1\overline{B_0}B_1) + A_0(A_1B_0B_1 + \overline{A_1}B_0\overline{B_1})$$
+
+$$\overline{A_0}\overline{B_0}(\overline{A_1}\overline{B_1} + A_1B_1) + A_0B_0(A_1B_1 + \overline{A_1}\overline{B_1})$$
+
+$$\overline{A_0}\overline{B_0}(A_1 \otimes B_1) + A_0B_0(A_1 \otimes B_1)$$
+
+$$(A_1 \otimes B_1)(\overline{A_0}\overline{B_0} + A_0B_0)$$
+
+$$f_{eq}(A,B) = (A_0 \otimes B_0) \cdot (A_1 \otimes B_1)$$
+![[Pasted image 20260531122316.png]]
+
+$$f_{gt}(A,B) = \overline{B_0}A_0 + A_1\overline{B_0}\overline{B_1} + A_0A_1\overline{B_1}$$
