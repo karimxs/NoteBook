@@ -2,9 +2,16 @@
 $$
 \lim_{ (x,y) \to (0,0) } \frac{x^2+y^2}{x^2+2y^2}
 $$
+let's say that
 $$
-f(x)=\frac{x^2+y^2}{x^2+2y^2}
+y=kx
 $$
 $$
-0\leq \left| \frac{x^2+y^2}{x^2+2y^2} \right|\leq \left| \frac{x^2}{x^2+2y^2} \right|+\left|  \right|   
+\lim_{ (x,y) \to (0,0) } \frac{x^2+(kx)^2}{x^2+2(kx)^2}=
+$$
+$$
+\lim_{ (x,y) \to (0,0) } \frac{x^2+k^2x^2}{x^2+2k^2x^2}=
+$$
+$$
+\lim_{ (x,y) \to (0,0) } \frac{1+k^2x^2}{x^2+2k^2x^2}=
 $$
