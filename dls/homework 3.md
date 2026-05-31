@@ -56,6 +56,7 @@ If we substitute, for example, $w=1, z=0, x=0, y=1$ we will get:$$(\overline{0})
 
 ---
 # 5.
+## a.
 ![[Pasted image 20260531121132.png]]
 ![[Pasted image 20260531121530.png]]
 
@@ -73,3 +74,18 @@ $$f_{eq}(A,B) = (A_0 \otimes B_0) \cdot (A_1 \otimes B_1)$$
 ![[Pasted image 20260531122316.png]]
 
 $$f_{gt}(A,B) = \overline{B_0}A_0 + A_1\overline{B_0}\overline{B_1} + A_0A_1\overline{B_1}$$
+![[Pasted image 20260531124302.png]]
+
+---
+## b.
+
+We will create a new block (comparator) which outputs one if the numbers are equal, and one if $A>B$.
+
+**When is a 4-digit number equal:**
+
+$$E_{eq_1} \cdot E_{eq_2} = \begin{cases} (B_2B_3 = A_2A_3) & \text{- when the MSB digits are equal} \\ (B_0B_1 = A_0A_1) & \text{- and when the LSB digits are equal} \end{cases}$$
+
+**When is a 4-digit number greater than another:**
+
+$$E_{gt_1} + (G_{gt_2} \cdot E_{eq_1}) \begin{cases} \text{- when the MSB digits of A are greater than B's} \\ \text{- or the MSB are equal, and then we check the LSB digits} \end{cases}$$
+
