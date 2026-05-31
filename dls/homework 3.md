@@ -56,3 +56,5 @@ If we substitute, for example, $w=1, z=0, x=0, y=1$ we will get:$$(\overline{0})
 
 ---
 # 5.
+![[Pasted image 20260531121132.png]]
+![[Pasted image 20260531121530.png]]
