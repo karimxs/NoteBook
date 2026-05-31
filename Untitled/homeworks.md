@@ -14,7 +14,7 @@ Hebrew
 physics 2
 30-5
 python
-
+14-6
+14-6
 STL
-18-5
 1-6
