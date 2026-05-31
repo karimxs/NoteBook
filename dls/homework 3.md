@@ -125,7 +125,7 @@ Let's define the four inputs as $A, B, C, D$ and the output as $F$. We can break
 
 
 $$F = (A \cdot B \cdot C \cdot D) + (\overline{A} \cdot \overline{B} \cdot \overline{C} \cdot \overline{D}) + (A \oplus B \oplus C \oplus D)$$
-![[Pasted image 20260531143807.png]]
+![[Pasted image 20260531143807.png|584]]
 
 ---
 # 7.
