@@ -127,6 +127,7 @@ Since $C = \frac{Q}{\Delta V}$:
 
 $$C = \frac{4\pi\epsilon_0}{\frac{1}{\kappa_1}\left(\frac{1}{a} - \frac{1}{b}\right) + \frac{1}{\kappa_2}\left(\frac{1}{b} - \frac{1}{c}\right)}$$
 
+---
 ## b. Show that when taking $\kappa_1 \to 1$ and $\kappa_2 \to 1$ we get the capacitance of a standard spherical capacitor.
 
 Substituting $\kappa_1 = 1$ and $\kappa_2 = 1$ into the capacitance formula we just found:
@@ -140,3 +141,44 @@ The $\frac{1}{b}$ terms cancel out, leaving:
 $$C = \frac{4\pi\epsilon_0}{\frac{1}{a} - \frac{1}{c}}$$
 
 This perfectly matches the known formula for the capacitance of a standard spherical capacitor in a vacuum.
+
+---
+# 6.
+
+A long wire charged with a linear charge density $\lambda$ is located inside a thick dielectric shell with an inner radius $a$ and an outer radius $b$. The dielectric constant of the material is given as $\epsilon_r = 10$. Calculate the electric field $E$ and the potential $V$ everywhere in space. (Choose a reference point of $V(r=b)=0$).
+
+By applying Gauss's Law for a cylinder (where $E \cdot 2\pi r L = \frac{Q_{in}}{\epsilon_0 \epsilon_r}$), we can find the electric field and then integrate to find the potential for each of the three regions:
+
+## 1. Electric Field ($E$)
+
+- **For $r < a$ (Vacuum inside the shell):**
+    
+    $$E = \frac{2k\lambda}{r}$$
+    
+- **For $a \le r \le b$ (Inside the dielectric material):**
+    
+    $$E = \frac{2k\lambda}{\epsilon_r r}$$
+    
+- **For $r > b$ (Vacuum outside the shell):**
+    
+    $$E = \frac{2k\lambda}{r}$$
+    
+
+## 2. Electric Potential ($V$)
+
+Given the boundary condition $V(b) = 0$, we integrate the electric field ($V = -\int E dr$) starting from $r=b$:
+
+- **For $r \ge b$:**
+    
+    $$V(r) = -\int_{b}^{r} \frac{2k\lambda}{r} dr = -2k\lambda \ln\left(\frac{r}{b}\right) = 2k\lambda \ln\left(\frac{b}{r}\right)$$
+    
+- **For $a \le r \le b$:**
+    
+    $$V(r) = -\int_{b}^{r} \frac{2k\lambda}{\epsilon_r r} dr = -\frac{2k\lambda}{\epsilon_r} \ln\left(\frac{r}{b}\right) = \frac{2k\lambda}{\epsilon_r} \ln\left(\frac{b}{r}\right)$$
+    
+- **For $r < a$:**
+    
+    $$V(r) = V(a) - \int_{a}^{r} \frac{2k\lambda}{r} dr = \frac{2k\lambda}{\epsilon_r} \ln\left(\frac{b}{a}\right) - 2k\lambda \ln\left(\frac{r}{a}\right)$$
+    
+    $$V(r) = 2k\lambda \left[ \frac{1}{\epsilon_r} \ln\left(\frac{b}{a}\right) + \ln\left(\frac{a}{r}\right) \right]$$
+    
