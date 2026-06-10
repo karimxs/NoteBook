@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "physics 2/homework 6.md",
+                "file": "python/homework 10.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "homework 6"
+              "title": "homework 10"
             }
           }
         ],
@@ -212,6 +212,8 @@
   },
   "active": "fc07e5ebfaa4e6d0",
   "lastOpenFiles": [
+    "physics 2/homework 6.md",
+    "python/homework 10.md",
     "dls/homework 2.md",
     "dls/homework 3.md",
     "dls/homework 4.md",
@@ -220,7 +222,6 @@
     "python/homework 8.md",
     "Pasted image 20260602154136.png",
     "Pasted image 20260602154112.png",
-    "physics 2/homework 6.md",
     "physics 2/homework 5.md",
     "Pasted image 20260602151528.png",
     "Pasted image 20260602151509.png",
@@ -252,7 +253,6 @@
     "calc 2/homework 1.md",
     "ODE",
     "python/homework 6.md",
-    "homework 6.pdf",
-    "calc 2/homework 3.md"
+    "homework 6.pdf"
   ]
 }
