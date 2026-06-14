@@ -41,18 +41,47 @@ $$-V + \frac{\partial Q}{\partial t} \overbrace{(R_1 + R_2)}^{R_T} + Q \overbrac
 $$-V + \frac{\partial Q}{\partial t} R_T + \frac{Q}{C_T} = 0 \rightarrow \frac{\partial Q}{\partial t} = \frac{V}{R_T} - \frac{Q}{C_T}$$
 
 $$R_T = R_1 + R_2, \quad \frac{1}{C_T} = \frac{1}{C_1} + \frac{1}{C_2} $$
-![[Pasted image 20260614163408.png]]
-![[Pasted image 20260614163422.png]]
-
 
 ---
 # 2.
 ![[Pasted image 20260614163120.png]]
-![[Pasted image 20260614163501.png]]![[Pasted image 20260614163517.png]]
+## a.
+$$
+R=\rho\frac{ L}{A}
+$$
+
+$$
+dR = \rho \frac{dr}{L \cdot 2\pi r}
+$$
+
+$$R = \int dR = \frac{\rho}{L \cdot 2\pi} \cdot \int_{a}^{b} \frac{dr}{r} = \frac{\rho}{2\pi L} \ln{\frac{b}{a}}$$
+
+---
+## b.
+
+$$I = \frac{V}{R} = \frac{V \cdot 2\pi L}{\rho \cdot \ln(b/a)}$$
+
+---
+## c.
+$$\vec{j} = \frac{I}{2\pi r \cdot L} = \frac{V}{\rho \cdot \ln(b/a)} \cdot \frac{\hat{r}}{r}$$
+
+---
+## d.
+$$
+\vec{J}=\sigma \vec{E}
+$$
+$$
+\vec{E}=\frac{\vec{J}}{\sigma}=\rho\vec{J}=\frac{V}{\ln(a/b)}\cdot \frac{\hat{r}}{r}
+$$
 
 ---
 # 3.
 ![[Pasted image 20260614163051.png]]
+$$
+dR=
+$$
+
+
 ![[Pasted image 20260614164802.png]]
 
 
