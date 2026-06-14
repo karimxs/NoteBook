@@ -99,90 +99,65 @@ $$
 ---
 # 4.
 ![[Pasted image 20260614163605.png]]
-
 Let's calculate the voltage drop across resistor $R_3$:
 
-$$\varphi_3 = R_3 \cdot I_3 = 6[\Omega] \cdot 6[A] \Rightarrow \varphi_3 = 36[V]$$
+$$\varphi_3 = R_3 \cdot I_3 = 4[\Omega] \cdot 6[A] \Rightarrow \varphi_3 = 24[V]$$
 
 The voltage drop across resistor $R_2$ and the box is identical to the voltage drop across resistor $R_3$, now we can find the voltage drop across resistor $R_1$ which is:
 
-$$\varphi_1 = \varphi_A - \varphi_B - \varphi_3 = 78[V] - 36[V] \Rightarrow \varphi_1 = 42[V]$$
+$$\varphi_1 = \varphi_A - \varphi_B - \varphi_3 = 78[V] - 24[V] \Rightarrow \varphi_1 = 54[V]$$
 
 And the current through resistor $R_1$ is:
 
-$$I_1 = \frac{\varphi_1}{R_1} = \frac{42[V]}{7[\Omega]} \Rightarrow I_1 = 6[A]$$
+$$I_1 = \frac{\varphi_1}{R_1} = \frac{54[V]}{7[\Omega]} \Rightarrow I_1 = \frac{54}{7}[A]$$
 
-We found that the current through resistor $R_1$ and $R_3$ is identical! This means there is no splitting of the current at the junction between $R_2$ and $R_3$, therefore the correct answer must be 'E'. The reason is that there must be an open circuit, and seemingly only option 'B' is an open circuit. However, the current that was measured, was measured immediately after the connection, and if there is a capacitor there, then there would still be current through the capacitor before it became an open circuit. Therefore, answer 'E' is correct.
+We found that the current through resistor $R_1$ is greater than the current through $R_3$! This means there is a splitting of the current at the junction between $R_2$ and $R_3$. The current flowing through the top branch ($R_2$ and the Box) is:
+
+$$I_{top} = I_1 - I_3 = \frac{54}{7}[A] - \frac{42}{7}[A] \Rightarrow I_{top} = \frac{12}{7}[A]$$
+
+Now we can find the voltage drop across resistor $R_2$:
+
+$$\varphi_{R2} = R_2 \cdot I_{top} = 6[\Omega] \cdot \frac{12}{7}[A] \Rightarrow \varphi_{R2} = \frac{72}{7}[V]$$
+
+The remaining voltage drop in that branch must be across the Box:
+
+$$\varphi_{Box} = \varphi_3 - \varphi_{R2} = 24[V] - \frac{72}{7}[V] \Rightarrow \varphi_{Box} = \frac{96}{7}[V]$$
+
+Finally, we can calculate the resistance of the Box using Ohm's Law:
+
+$$R_{Box} = \frac{\varphi_{Box}}{I_{top}} = \frac{96/7[V]}{12/7[A]} \Rightarrow R_{Box} = 8[\Omega]$$
+
+Since the component in the box has a constant, exact resistance of $8\Omega$, it acts as a standard resistor. Therefore, answer 'A' is correct.
 
 ---
 # 5.
 ![[Pasted image 20260614163649.png]]
 
-Because all the components in the circuit are connected in a single loop, this is a series circuit. We can combine the resistors and the capacitors into equivalent components to make the math easier:
+Because everything is connected in a single loop (series), this complex circuit behaves exactly like a simple circuit that has only one resistor and one capacitor.
 
-- **Equivalent Resistance ($R_{eq}$):** For resistors in series, you just add them together.
+First, smash the components together into single, equivalent values:
+
+- **Total Resistance ($R_{eq}$):** Resistors in series just add together.
     
     $$R_{eq} = R_1 + R_2$$
     
-- **Equivalent Capacitance ($C_{eq}$):** For capacitors in series, the reciprocal of the equivalent capacitance is the sum of their reciprocals.
+- **Total Capacitance ($C_{eq}$):** Capacitors in series combine inversely.
     
-    $$\frac{1}{C_{eq}} = \frac{1}{C_1} + \frac{1}{C_2} \implies C_{eq} = \frac{C_1 C_2}{C_1 + C_2}$$
-    
-
-In a series circuit, the current $I(t)$ is the same everywhere at any given moment. Because both capacitors are in series and start with zero initial charge ($Q_1(0) = 0$ and $Q_2(0) = 0$), the exact same amount of charge $Q(t)$ will be deposited on both of them by the current.
-
-- Therefore, $Q_1(t) = Q_2(t) = Q(t)$
-    
-- The relationship between current and charge is: $I(t) = \frac{dQ}{dt}$
+    $$C_{eq} = \frac{C_1 C_2}{C_1 + C_2}$$
     
 
-### **3. Apply Kirchhoff's Voltage Law (KVL)**
 
-According to KVL, the sum of all voltage drops around a closed loop must equal the voltage supplied by the source. Let's write the equation for the loop:
+In a series circuit, the current is the same everywhere, and both capacitors will store the exact same amount of charge. Because we simplified the circuit in Step 1, we don't need to write a new differential equation; we can just plug $R_{eq}$ and $C_{eq}$ directly into the standard physics formulas for a charging capacitor:
 
-$$V - V_{R1} - V_{C1} - V_{R2} - V_{C2} = 0$$
+- **Standard Charge Formula:** $Q(t) = V C_{eq} \left(1 - e^{-\frac{t}{R_{eq}C_{eq}}}\right)$
+    
+- **Standard Current Formula:** $I(t) = \frac{V}{R_{eq}} e^{-\frac{t}{R_{eq}C_{eq}}}$
+    
 
-Substitute the formulas for voltage across a resistor ($V_R = I \cdot R$) and a capacitor ($V_C = \frac{Q}{C}$):
 
-$$V - I \cdot R_1 - \frac{Q}{C_1} - I \cdot R_2 - \frac{Q}{C_2} = 0$$
+Just substitute your $R_{eq}$ and $C_{eq}$ values back into those standard formulas to get your final, full equations:
 
-Now, factor out the current $I$ and charge $Q$:
-
-$$V - I(R_1 + R_2) - Q\left(\frac{1}{C_1} + \frac{1}{C_2}\right) = 0$$
-
-Substitute our equivalent terms and $I = \frac{dQ}{dt}$:
-
-$$V - \frac{dQ}{dt} R_{eq} - \frac{Q}{C_{eq}} = 0$$
-
-### **4. Solve for the Charge ($Q(t)$)**
-
-Rearranging the KVL equation gives us a first-order linear differential equation:
-
-$$R_{eq} \frac{dQ}{dt} + \frac{Q}{C_{eq}} = V$$
-
-This is the standard differential equation for a charging RC circuit. Solving this with the initial condition $Q(0) = 0$ yields the standard charging formula:
-
-$$Q(t) = V C_{eq} \left(1 - e^{-\frac{t}{R_{eq}C_{eq}}}\right)$$
-
-Since $Q(t)$ is the charge on both capacitors, we have our first answer.
-
-### **5. Solve for the Current ($I(t)$)**
-
-To find the current, we simply take the derivative of the charge $Q(t)$ with respect to time $t$:
-
-$$I(t) = \frac{d}{dt} \left[ V C_{eq} \left(1 - e^{-\frac{t}{R_{eq}C_{eq}}}\right) \right]$$
-
-$$I(t) = V C_{eq} \cdot \left( -e^{-\frac{t}{R_{eq}C_{eq}}} \right) \cdot \left( -\frac{1}{R_{eq}C_{eq}} \right)$$
-
-The $C_{eq}$ terms cancel out, leaving:
-
-$$I(t) = \frac{V}{R_{eq}} e^{-\frac{t}{R_{eq}C_{eq}}}$$
-
-### **Final Answer**
-
-Here are the final expressions for the charge and current for $t > 0$, expressed in terms of the original circuit variables:
-
-**Charge on the capacitors:**
+**Charge on both capacitors:**
 
 $$Q_1(t) = Q_2(t) = V \left( \frac{C_1 C_2}{C_1 + C_2} \right) \left[ 1 - \exp\left(-\frac{t}{(R_1 + R_2) \left(\frac{C_1 C_2}{C_1 + C_2}\right)}\right) \right]$$
 
