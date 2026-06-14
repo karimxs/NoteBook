@@ -71,7 +71,7 @@ $$
 \vec{J}=\sigma \vec{E}
 $$
 $$
-\vec{E}=\frac{\vec{J}}{\sigma}=\rho\vec{J}=\frac{V}{\ln(a/b)}\cdot \frac{\hat{r}}{r}
+\vec{E}=\frac{\vec{J}}{\sigma}=\rho\vec{J}=\frac{V}{\ln(b/a)}\cdot \frac{\hat{r}}{r}
 $$
 
 ---
@@ -168,7 +168,67 @@ $$I(t) = \frac{V}{R_1 + R_2} \exp\left(-\frac{t}{(R_1 + R_2) \left(\frac{C_1 C_2
 ---
 # 6.
 ![[Pasted image 20260614164905.png]]
-![[Pasted image 20260614164942.png]]
-![[Pasted image 20260614164955.png]]
-![[Pasted image 20260614165005.png]]
-![[Pasted image 20260614165014.png]]
+## a.
+- **When the switch is OPEN for a long time:**
+    
+    The right branch (with $R_2$) is disconnected. The circuit consists only of the voltage source $V_0$, resistor $R_1$, and capacitor $C$ in series. Since the capacitor acts as an open circuit, no current flows through $R_1$, meaning there is zero voltage drop across $R_1$.
+    
+    Therefore, the capacitor charges fully to the source voltage:
+    
+    $$V_c(\text{open}) = V_0$$
+    
+- **When the switch is CLOSED for a long time:**
+    
+    The capacitor acts as an open circuit, so no current flows down its specific branch. However, current _does_ flow in the outer loop from $V_0$ through $R_1$ and $R_2$ to ground. This forms a standard voltage divider. The capacitor is in parallel with $R_2$, so it measures the voltage drop across $R_2$:
+    
+    $$V_c(\text{closed}) = V_0 \left( \frac{R_2}{R_1 + R_2} \right)$$
+    
+---
+## b.
+
+The time constant of an RC circuit is given by $\tau = R_{eq}C$, where $R_{eq}$ is the Thevenin equivalent resistance seen from the perspective of the capacitor (with the voltage source shorted to ground).
+
+- **Switch OPEN ($\tau_1$):**
+    
+    With the switch open, the $R_2$ branch is gone. From the capacitor's perspective (shorting $V_0$ to ground), it only "sees" $R_1$.
+    
+    $$\tau_1 = R_1 C$$
+    
+- **Switch CLOSED ($\tau_2$):**
+    
+    With the switch closed, short $V_0$ to ground to find the equivalent resistance. From the capacitor's perspective, it looks back and sees $R_1$ connected to ground on one side, and $R_2$ connected to ground on the other side. Therefore, $R_1$ and $R_2$ are in parallel.
+    
+    $$\tau_2 = \left( \frac{R_1 R_2}{R_1 + R_2} \right) C$$
+    
+---
+## c.
+
+Here, the switching period $T$ is **much shorter** than the time constants. This means the capacitor doesn't have time to fully charge or discharge before the switch changes state.
+
+![[Pasted image 20260614175321.png]]
+
+---
+## d.
+
+
+Here, the switching period $T$ is **much longer** than the time constants. This means the capacitor has plenty of time to reach its final steady-state voltage in every single cycle.
+
+![[Pasted image 20260614175348.png]]
+
+### **Part E: Limiting Cases Analysis**
+
+- **Scenario 1: $R_1 \ll R_2$ (or $R_2$ is very large)**
+    
+    If $R_2$ is huge compared to $R_1$, the closed-switch steady state becomes:
+    
+    $$V_c(\text{closed}) = V_0 \left( \frac{R_2}{R_1 + R_2} \right) \approx V_0 \left( \frac{R_2}{R_2} \right) = V_0$$
+    
+    **Explanation:** $R_2$ is essentially acting like an open circuit anyway because its resistance is so high. Closing the switch barely draws any current away from the capacitor. Therefore, the capacitor voltage will remain almost constantly at $V_0$ regardless of whether the switch is open or closed.
+    
+- **Scenario 2: $R_2 \ll R_1$ (or $R_2$ is very small)**
+    
+    If $R_2$ is tiny compared to $R_1$, the closed-switch steady state becomes:
+    
+    $$V_c(\text{closed}) = V_0 \left( \frac{R_2}{R_1 + R_2} \right) \approx V_0 \left( \frac{0}{R_1} \right) = 0$$
+    
+    **Explanation:** Closing the switch essentially creates a short circuit to ground across the capacitor. The capacitor will rapidly and completely drain all its charge through $R_2$, dropping the voltage to $0V$. When the switch opens, it charges back to $V_0$. The circuit acts like an aggressive on/off switch for the capacitor voltage.
