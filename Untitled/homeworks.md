@@ -7,7 +7,6 @@ ODE
 Hebrew
 21-6
 physics 2
-18-6
 26-6
 python
 2-7
