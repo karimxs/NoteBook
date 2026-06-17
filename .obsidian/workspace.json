@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "physics 2/homework 7.md",
+                "file": "Untitled/homeworks.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "homework 7"
+              "title": "homeworks"
             }
           }
         ],
@@ -210,10 +210,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a2b7be0482511b09",
+  "active": "fc07e5ebfaa4e6d0",
   "lastOpenFiles": [
-    "Untitled/homeworks.md",
     "physics 2/homework 7.md",
+    "Untitled/homeworks.md",
     "Pasted image 20260614175348.png",
     "Pasted image 20260614175321.png",
     "Untitled/Untitled.md",
