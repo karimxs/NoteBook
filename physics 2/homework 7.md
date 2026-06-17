@@ -205,8 +205,7 @@ The time constant of an RC circuit is given by $\tau = R_{eq}C$, where $R_{eq}$ 
 ## c.
 
 Here, the switching period $T$ is **much shorter** than the time constants. This means the capacitor doesn't have time to fully charge or discharge before the switch changes state.
-
-![[Pasted image 20260614175321.png]]
+![[Pasted image 20260614175348.png]]
 
 ---
 ## d.
@@ -214,7 +213,8 @@ Here, the switching period $T$ is **much shorter** than the time constants. This
 
 Here, the switching period $T$ is **much longer** than the time constants. This means the capacitor has plenty of time to reach its final steady-state voltage in every single cycle.
 
-![[Pasted image 20260614175348.png]]
+![[Pasted image 20260614175321.png]]
+
 
 ---
 ## e.
