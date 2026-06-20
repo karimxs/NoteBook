@@ -5,7 +5,6 @@ DLS
 ODE
 7-7
 Hebrew
-21-6
 physics 2
 26-6
 python
