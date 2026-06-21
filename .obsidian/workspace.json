@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "physics 2/homework 7.md",
+                "file": "Untitled/homeworks.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "homework 7"
+              "title": "homeworks"
             }
           },
           {
@@ -27,16 +27,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled/homeworks.md",
+                "file": "physics 2/homework 8.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "homeworks"
+              "title": "homework 8"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -210,9 +209,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "fc07e5ebfaa4e6d0",
+  "active": "a2b7be0482511b09",
   "lastOpenFiles": [
     "physics 2/homework 7.md",
+    "physics 2/homework 8.md",
+    "Pasted image 20260621121843.png",
     "Untitled/homeworks.md",
     "Pasted image 20260614175348.png",
     "Pasted image 20260614175321.png",
@@ -224,7 +225,6 @@
     "Pasted image 20260614164905.png",
     "Pasted image 20260614164802.png",
     "Pasted image 20260614164719.png",
-    "Pasted image 20260614164345.png",
     "ODE/homework 1.md",
     "python/homework 10.md",
     "physics 2/homework 6.md",
@@ -248,7 +248,6 @@
     "physics 2/homework 4.md",
     "homework 2.pdf",
     "STL",
-    "python/Homework 7.md",
     "Homework 7.pdf",
     "homework 1.pdf",
     "ODE",
