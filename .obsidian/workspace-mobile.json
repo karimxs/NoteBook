@@ -35,8 +35,7 @@
               "title": "conflict-files-obsidian-git"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -127,7 +126,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "conflict-files-obsidian-git.md",
+            "file": "physics 2/homework 8.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -194,10 +193,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "27298e09278632b5",
+  "active": "e74f8778aa29224d",
   "lastOpenFiles": [
-    "physics 2/homework 8.md",
     "conflict-files-obsidian-git.md",
+    "physics 2/homework 8.md",
     "2026-06-22.md",
     "Untitled 2.base",
     "Ink/Drawing/2026.6.22 - 12.14pm (2).drawing",
