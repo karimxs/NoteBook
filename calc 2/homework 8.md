@@ -268,9 +268,6 @@ Absolute Maximum: $1$ at $(\sqrt{2}, 0)$ and $(-\sqrt{2}, 0)$
 ---
 # D.
 ![[Pasted image 20260622104411.png]]
-We need to find the minimum of $f(x,y) = x^2 + y^2$ subject to the constraint $\frac{x}{2} + \frac{y}{3} = 1$.
-
-First, isolate one of the variables from the constraint:
 
 $$\frac{x}{2} + \frac{y}{3} = 1$$
 
@@ -278,15 +275,11 @@ $$\frac{x}{2} = 1 - \frac{y}{3}$$
 
 $$x = 2 - \frac{2}{3}y$$
 
-Now replace $x$ in the original function to create a single-variable function $h(y)$:
+Replace $x$ in the original function to create a single-variable function $h(y)$:
 
 $$h(y) = \left(2 - \frac{2}{3}y\right)^2 + y^2$$
 
-Expand the squared binomial:
-
 $$h(y) = \left(4 - \frac{8}{3}y + \frac{4}{9}y^2\right) + y^2$$
-
-Combine like terms (note that $y^2 = \frac{9}{9}y^2$):
 
 $$h(y) = \frac{13}{9}y^2 - \frac{8}{3}y + 4$$
 
@@ -299,8 +292,6 @@ $$\frac{26}{9}y = \frac{8}{3}$$
 $$y = \frac{8}{3} \cdot \frac{9}{26}$$
 
 $$y = \frac{72}{78}$$
-
-Simplify the fraction by dividing the top and bottom by 6:
 
 $$y = \frac{12}{13}$$
 
@@ -319,3 +310,40 @@ $$x = \frac{18}{13}$$
 Because the constraint represents an infinite line, and $x^2 + y^2$ goes to infinity as $x$ and $y$ get larger, the single critical point we found must be the absolute minimum.
 
 The minimum point is **$(\frac{18}{13}, \frac{12}{13})$**.
+
+---
+# E.
+![[Pasted image 20260622104904.png]]
+We are restricted to the line $x + y = 1$. To make this easier, we can solve for $y$:
+
+$$y = 1 - x$$
+
+
+Now we take our main function $z = x^2 + y^2$ and replace the $y$ with what we just found. This gives us a new function (let's call it $h(x)$) that only has one variable:
+
+$$h(x) = x^2 + (1 - x)^2$$
+
+
+$$h(x) = x^2 + (1 - 2x + x^2)$$
+
+$$h(x) = 2x^2 - 2x + 1$$
+
+
+To find where this function hits its minimum or maximum, we take the derivative with respect to $x$ and set it to zero:
+
+$$h'(x) = 4x - 2 = 0$$
+
+$$4x = 2$$
+
+$$x = \frac{1}{2}$$
+
+
+Now that we have $x$, we plug it back into our constraint equation ($y = 1 - x$) to find $y$:
+
+$$y = 1 - \frac{1}{2}$$
+
+$$y = \frac{1}{2}$$
+
+Because the function $h(x)$ is an upward-facing parabola (its second derivative $h''(x) = 4$ is positive), this critical point is an absolute minimum.
+
+Therefore, the minimum point is **$(\frac{1}{2}, \frac{1}{2})$**.
