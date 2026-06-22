@@ -153,9 +153,19 @@
           "icon": "lucide-list",
           "title": "Outline"
         }
+      },
+      {
+        "id": "fce19531ce919809",
+        "type": "leaf",
+        "state": {
+          "type": "git-view",
+          "state": {},
+          "icon": "git-pull-request",
+          "title": "Source Control"
+        }
       }
     ],
-    "currentTab": 0
+    "currentTab": 3
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -171,6 +181,8 @@
   },
   "active": "e74f8778aa29224d",
   "lastOpenFiles": [
+    "2026-06-22.md",
+    "Untitled 2.base",
     "conflict-files-obsidian-git.md",
     "physics 2/homework 8.md",
     "Ink/Drawing/2026.6.22 - 12.14pm (2).drawing",
@@ -211,11 +223,8 @@
     "physics 2/homework 6.md",
     "physics 2/homework 5.md",
     "physics 2/homework 4.md",
-    "physics 2/homework 3.md",
-    "physics 2/homework 2.md",
     "homework 6.pdf",
     "homework 5.pdf",
-    "homework 2.pdf",
-    "homework 1.pdf"
+    "homework 2.pdf"
   ]
 }
