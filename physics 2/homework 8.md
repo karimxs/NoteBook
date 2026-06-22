@@ -264,13 +264,4 @@ $$\vec{B} = \frac{\mu_0 I}{4R} \left( 1 + \frac{2}{\pi} \right) \text{ (into the
 ---
 # 5.
 ![[Pasted image 20260622120213.png]]
-()
-```handdrawn-ink
-{
-	"versionAtEmbed": "0.3.4",
-	"filepath": "Ink/Drawing/2026.6.22 - 12.14pm (2).drawing",
-	"width": 631.3984375,
-	"aspectRatio": 1.8862963314815298
-}
-```
-Ii
+Hrhru
