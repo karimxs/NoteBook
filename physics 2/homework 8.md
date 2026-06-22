@@ -43,5 +43,12 @@ $$
 v=\frac{RqB_{0}}{m}
 $$
 $$
-\frac{E}{B}
+\frac{E}{B}=\frac{RqB_{0}}{m}
 $$
+$$
+m=\frac{RqB_{0}B}{E}
+$$
+
+---
+# 2.
+![[Pasted image 20260622111933.png]]
