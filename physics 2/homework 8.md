@@ -59,5 +59,25 @@ $$
 F=ILB
 $$
 $$
-W
+W=F\cdot a=ILBa
+$$
+Calculation of the final kinetic energy: 
+(Since the body rolls without slipping, therefore):
+$$
+E_{k}=\frac{1}{2}mv^{2}+\frac{1}{2}I_{m}\omega^{2}
+$$
+$$
+\begin{cases}
+I_{m}=\frac{mR^{2}}{2} \\
+v=\omega R \Rightarrow \omega=\frac{v}{R}
+\end{cases}
+$$
+$$
+E_{k}=\frac{1}{2}\left( mv^{2}+\frac{mR^2}{2}\frac{v^{2}}{R^2} \right)
+$$
+$$
+E_{k}=\frac{3}{4}mv^2
+$$
+$$
+E_{k}=\Delta
 $$
