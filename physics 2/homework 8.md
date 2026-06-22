@@ -193,3 +193,73 @@ $$\vec{B} = \begin{cases} 0 & : r < a \\ \frac{\alpha(r^3 - a^3)\mu_0}{3r} \hat{
 ---
 # 4.
 ![[Pasted image 20260622115812.png]]
+## a.
+
+$$B = \frac{\mu_0 I}{4\pi R} \theta$$
+
+In this diagram, the arcs span an angle of exactly $\frac{\pi}{2}$ radians ($90^\circ$). Let's break the loop into four parts:
+
+1. **Inner arc (radius $a$):** The current flows counter-clockwise. Using the right-hand rule, the magnetic field points **out of the page**.
+
+$$B_{inner} = \frac{\mu_0 I}{4\pi a} \left(\frac{\pi}{2}\right) = \frac{\mu_0 I}{8a} \text{ (out)}$$
+
+2. **Outer arc (radius $b$):** The current flows clockwise. Using the right-hand rule, the magnetic field points **into the page**.
+    
+    $$B_{outer} = \frac{\mu_0 I}{4\pi b} \left(\frac{\pi}{2}\right) = \frac{\mu_0 I}{8b} \text{ (in)}$$
+    
+3. **Two straight radial segments:** These segments point directly towards or away from point P. Since the angle between the current element $d\vec{l}$ and the position vector $\vec{r}$ is $0^\circ$ or $180^\circ$, their cross product is zero. Therefore, they contribute **nothing** to the magnetic field at P.
+    
+    $$B_{straight} = 0$$
+    
+
+To find the total magnetic field, we add the contributions, defining "out of the page" as the positive direction:
+
+$$B_{total} = B_{inner} - B_{outer}$$
+
+$$B_{total} = \frac{\mu_0 I}{8a} - \frac{\mu_0 I}{8b}$$
+
+Factoring out the common terms:
+
+$$\vec{B} = \frac{\mu_0 I}{8} \left( \frac{1}{a} - \frac{1}{b} \right) \text{ (out)}$$
+
+---
+## b.
+
+
+1. **Top semi-infinite straight wire:** The wire stops directly above point P. The magnetic field from a semi-infinite wire at a distance $R$ from its end is half that of an infinite wire.
+    
+    $$B_{top\_straight} = \frac{1}{2} \left( \frac{\mu_0 I}{2\pi R} \right) = \frac{\mu_0 I}{4\pi R}$$
+    
+    Using the right-hand rule (thumb points left), the magnetic field at P (below the wire) points **into the page**.
+    
+2. **Bottom semi-infinite straight wire:** The wire starts directly below point P. Similarly, its contribution is:
+    
+    $$B_{bottom\_straight} = \frac{\mu_0 I}{4\pi R}$$
+    
+    Using the right-hand rule (thumb points right), the magnetic field at P (above the wire) also points **into the page**.
+    
+3. **Semi-circular arc (radius $R$):** The arc spans an angle of $\pi$ radians ($180^\circ$). The current flows counter-clockwise.
+    
+    $$B_{arc} = \frac{\mu_0 I}{4\pi R} (\pi) = \frac{\mu_0 I}{4R}$$
+    
+    Using the right-hand rule, the magnetic field points **into the page**.
+    
+
+To find the total magnetic field, we add all the contributions together, as they all point in the same direction (into the page):
+
+$$B_{total} = B_{top\_straight} + B_{bottom\_straight} + B_{arc}$$
+
+$$B_{total} = \frac{\mu_0 I}{4\pi R} + \frac{\mu_0 I}{4\pi R} + \frac{\mu_0 I}{4R}$$
+
+$$B_{total} = \frac{2\mu_0 I}{4\pi R} + \frac{\mu_0 I}{4R}$$
+
+Factoring out $\frac{\mu_0 I}{4R}$:
+
+$$\vec{B} = \frac{\mu_0 I}{4R} \left( \frac{2}{\pi} + 1 \right) \text{ (into the page)}$$
+
+Rearranging the terms inside the parentheses gives us:
+
+$$\vec{B} = \frac{\mu_0 I}{4R} \left( 1 + \frac{2}{\pi} \right) \text{ (into the page)}$$
+---
+# 5.
+![[Pasted image 20260622120213.png]]
