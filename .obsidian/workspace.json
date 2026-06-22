@@ -34,6 +34,20 @@
               "icon": "lucide-file",
               "title": "homework 8"
             }
+          },
+          {
+            "id": "3201cd0e7d06c1de",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
+            }
           }
         ],
         "currentTab": 1
@@ -212,20 +226,31 @@
   },
   "active": "fc07e5ebfaa4e6d0",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "physics 2/homework 8.md",
+    "Untitled 2.base",
+    "Ink/Drawing/2026.6.21 - 16.02pm.drawing",
+    "Ink/Drawing/2026.6.22 - 12.14pm.drawing",
+    "Ink/Drawing/2026.6.22 - 12.14pm (2).drawing",
+    "Ink/Drawing",
+    "Ink",
+    "2026-06-22.md",
+    "dls/lec/Drawing 2026-04-15 12.28.10.excalidraw.md",
+    "Ink/Drawing/2026.6.22 - 12.41pm.drawing",
+    "Ink/Drawing/2026.4.16 - 10.26am.drawing",
+    "Ink/Drawing/2026.4.16 - 10.18am.drawing",
     "Pasted image 20260622120213.png",
     "Pasted image 20260622115812.png",
     "Pasted image 20260622115807.png",
     "Pasted image 20260622115610.png",
     "Pasted image 20260622115252.png",
     "Pasted image 20260622111933.png",
-    "physics 2/homework 8.md",
     "calc 2/homework 8.md",
     "Untitled/homeworks.md",
     "Pasted image 20260622104904.png",
     "Pasted image 20260622104411.png",
     "Pasted image 20260622104255.png",
     "Pasted image 20260622103912.png",
-    "Pasted image 20260622103717.png",
     "physics 2/homework 7.md",
     "Untitled/Untitled.md",
     "ODE/homework 1.md",
@@ -246,13 +271,6 @@
     "ODE/homework 6.md",
     "ODE/homework 5.md",
     "ODE/homework 4.md",
-    "ODE/homework 3.md",
-    "ODE/homework 2.md",
-    "homework 2.pdf",
-    "STL",
-    "Homework 7.pdf",
-    "homework 1.pdf",
-    "ODE",
-    "homework 6.pdf"
+    "homework 2.pdf"
   ]
 }

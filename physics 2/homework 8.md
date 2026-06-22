@@ -264,4 +264,3 @@ $$\vec{B} = \frac{\mu_0 I}{4R} \left( 1 + \frac{2}{\pi} \right) \text{ (into the
 ---
 # 5.
 ![[Pasted image 20260622120213.png]]
-Hrhru
