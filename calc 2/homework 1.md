@@ -1,4 +1,4 @@
-# 1
+ 1
 ## a.
 ![[Pasted image 20260325205754.png]]
 $$
@@ -9,6 +9,15 @@ $$
 \frac{1}{\sqrt{ n } e^{-\sqrt{ n }}}=\frac{ e^{\sqrt{ n }}}{\sqrt{ n }}> \frac{1}{\sqrt{ n }}
 $$
 The smaller series $\sum_{n=1}^{\infty} \frac{1}{\sqrt{ n }}$ diverges so the bigger series $\sum_{n=1}^\infty \frac{1}{\sqrt{ n } e^{-\sqrt{ n }}}$ also diverges.
+
+```handdrawn-ink
+{
+	"versionAtEmbed": "0.3.4",
+	"filepath": "Ink/Drawing/2026.6.21 - 16.02pm.drawing",
+	"width": 500,
+	"aspectRatio": 1
+}
+```
 
 ---
 ## b.
