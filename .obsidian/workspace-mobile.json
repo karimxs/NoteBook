@@ -1,0 +1,221 @@
+{
+  "main": {
+    "id": "75ff87aca837329e",
+    "type": "split",
+    "children": [
+      {
+        "id": "271de5a313248bbd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e74f8778aa29224d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "physics 2/homework 8.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "homework 8"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "3a85255173a3e63d",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "103a002b08624dc5",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical",
+            "autoReveal": false
+          },
+          "icon": "lucide-folder-closed",
+          "title": "Files"
+        }
+      },
+      {
+        "id": "851c542949353146",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          },
+          "icon": "lucide-search",
+          "title": "Search"
+        }
+      },
+      {
+        "id": "4cc231c4641e43c7",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true,
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-tags",
+          "title": "Tags"
+        }
+      },
+      {
+        "id": "4b62db38f0f5927f",
+        "type": "leaf",
+        "state": {
+          "type": "all-properties",
+          "state": {
+            "sortOrder": "frequency",
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-archive",
+          "title": "All properties"
+        }
+      },
+      {
+        "id": "9c4a2efe7948f811",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {},
+          "icon": "lucide-bookmark",
+          "title": "Bookmarks"
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "b4959dd57529cd63",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "ad1267409932b57b",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "physics 2/homework 8.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-coming-in",
+          "title": "Backlinks"
+        }
+      },
+      {
+        "id": "59d36c76272d8bbd",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "calc 2/homework 2.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-going-out",
+          "title": "Outgoing links"
+        }
+      },
+      {
+        "id": "fa0c3d37c668c004",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "calc 2/homework 2.md",
+            "followCursor": false,
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-list",
+          "title": "Outline"
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "e74f8778aa29224d",
+  "lastOpenFiles": [
+    "Ink/Drawing/2026.6.22 - 12.14pm (2).drawing",
+    "Ink/Drawing/2026.6.22 - 12.14pm.drawing",
+    "Pasted image 20260622120213.png",
+    "Pasted image 20260622115812.png",
+    "Pasted image 20260622115807.png",
+    "Pasted image 20260622115610.png",
+    "Pasted image 20260622115252.png",
+    "Pasted image 20260622111933.png",
+    "Pasted image 20260622104904.png",
+    "Pasted image 20260622104411.png",
+    "Pasted image 20260622104255.png",
+    "Pasted image 20260622103912.png",
+    "/physics 2/homework 8.md",
+    "/physics 2",
+    "/calc 2/homework 8.md",
+    "/calc 2",
+    "/Untitled/homeworks.md",
+    "/Untitled",
+    "calc 2/homework 1.md",
+    "calc 2/homework 2.md",
+    "Ink/Drawing/2026.6.21 - 16.02pm.drawing",
+    "calc 2/homework 5.md",
+    "calc 2/homework 8.md",
+    "python/homework 9.md",
+    "python/homework 8.md",
+    "python/homework 6.md",
+    "python/homework 5.md",
+    "python/homework 4.md",
+    "python/homework 3.md",
+    "python/homework 2.md",
+    "python/homework 10.md",
+    "python/homework 1.md",
+    "python/Untitled.md",
+    "python/Homework 7.md",
+    "physics 2/homework 8.md",
+    "physics 2/homework 7.md",
+    "physics 2/homework 6.md",
+    "physics 2/homework 5.md",
+    "physics 2/homework 4.md",
+    "physics 2/homework 3.md",
+    "physics 2/homework 2.md",
+    "homework 6.pdf",
+    "homework 5.pdf",
+    "homework 2.pdf",
+    "homework 1.pdf",
+    "dls/lec/Digital Logic Systems 3 Spring 2026.pdf"
+  ]
+}
